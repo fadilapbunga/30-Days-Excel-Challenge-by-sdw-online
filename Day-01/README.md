@@ -2,7 +2,7 @@
 
 ## 📝 Table of Contents
   - [Identification Database](#identification-database)
-  - [Identification Issues](#identification_issues)
+  - [Identification Issues](#identification-issues)
   - [Solving Step / Analysis](#solving-step-/-analysis)
   - [Formulas / Tools Used](#formulas-/-tools-used)
   - [Results Overview](#results-overview)
