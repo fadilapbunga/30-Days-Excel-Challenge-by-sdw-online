@@ -3,8 +3,8 @@
 ## 📝 Table of Contents
   - [Identification Database](#identification-database)
   - [Identification Issues](#identification-issues)
-  - [Solving Step / Analysis](#solving-step-analysis)
-  - [Formulas / Tools Used](#formulas-tools-used)
+  - [Solving Step / Analysis](#solving-step-or-analysis)
+  - [Formulas / Tools Used](#formulas-or-tools-used)
   - [Results Overview](#results-overview)
 
 ***
@@ -17,11 +17,11 @@
 
 ***
 
-## Solving Step / Analysis
+## Solving Step or Analysis
 
 ***
 
-## Formulas / Tools Used
+## Formulas or Tools Used
 
 ***
 
