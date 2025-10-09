@@ -60,7 +60,7 @@ Each folder or file represents *Day 1 to Day 30* of the challenge. Click the lin
 
 
 ## 📎 Source / Reference
-- 📺 The full video: [https://youtu.be/wnOSuo0kfEk](https://youtu.be/wnOSuo0kfEk?si=pUfIrUbgFWHypwl5) 
+- 📺 The full video: [30 Day Excel Challenge | Full Course (14+ hours) | #excel #dataanalysis #dataanalytics](https://youtu.be/wnOSuo0kfEk?si=pUfIrUbgFWHypwl5) 
 - 🎬 YouTube Channel: [Stephen | Data (12k+)](https://www.youtube.com/@sdw-online)
 
 ---
