@@ -10,6 +10,7 @@
 ***
 
 ## Identification Database
+The table below shows performance data for 5 online courses.
 | Course Name        | Instructor | Registered Students | Completed Students
 | ---------------    | ---------- | ------------------- | ----------------- | 
 | Intro to Python    | Alex       | 120                 | 100               |
@@ -19,16 +20,26 @@
 | Power BI Mastery   | Jordan     | 110                 | 98                |		
 			
 
-	
-
-
 ***
 
 ## Identification Issues
+- Use a formula to calculate the completion rate (as a percentage).
+- Explore the formula bar, ribbon tabs (Home, Formulas, Insert), and name box.
+- Try adding a new row for a course of your choice and calculate its completion rate.
+- Optional: Format the table to improve readability (bold headers, borders, etc).
+
 
 ***
 
 ## Solving Step or Analysis
+1. Since we know how much are the number of Registered and Completed Students, formula to calculate the completion rate(%) for the table below, we can using: 
+  ````excel
+		(Completed Students / Registered Students) x 100% 
+ ````
+Which is we can write the formula above on formula bar where the column completion rate is
+
+
+
 
 ***
 
