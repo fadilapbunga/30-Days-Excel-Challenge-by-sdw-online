@@ -1,4 +1,4 @@
-# 3️⃣ Day 2: Formulas and functions
+# 3️⃣ Day 3: Formulas and functions
 
 ## 📝 Table of Contents
   - [Identification Database](#identification-database)
