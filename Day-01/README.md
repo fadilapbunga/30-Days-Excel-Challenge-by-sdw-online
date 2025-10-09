@@ -31,16 +31,16 @@ The table below shows performance data for 5 online courses.
 ***
 
 ## Solving Step or Analysis
-1. Since we know how much are the number of Registered and Completed Students, formula to calculate the completion rate(%) for the table below, we can using: 
+1. To find out the completion rate(%) of Registered and Completed Students for the table, the formula generally used is this:
   ````excel
 		(Completed Students / Registered Students) x 100% 
  ````
-Which is we can write the formula above on formula bar where the completion rate column is
-<img width="739" height="448" alt="Image" src="https://github.com/user-attachments/assets/bc7b9d36-e89d-4a40-b200-7616cbf59e5d" />
+Which is, write the formula above on Formula Bar where the completion rate column is
+<img width="1489" height="910" alt="Image" src="https://github.com/user-attachments/assets/2ed9ccf0-53aa-495a-bfb2-730805cd634c" />
 
-For example, based on the image above, Completion Rate column is in column E. So we can click Formula on Ribbon Tabs and then click Insert Formula on E7 and write down the formula on Formula Bar like =$D7/$C7 since Registered and Completed Students column on C and D. And since the Microsoft Excel has extensive features for working with percentages, we can turn the number result by click the Percent Styles to format as a percent.
+For example, based on the image above, Completion Rate column is in column E. So click Formula on Ribbon Tabs and then click Insert Formula on E7 and write down the formula on Formula Bar like =$D7/$C7 since Registered and Completed Students column on C and D. And since the Microsoft Excel has extensive features for working with percentages, turn the number result by click the Percent Styles to format as a percent.
 
-2. To explore more the using of Microsoft Excel, we can turn the data into table format using Tables features on Insert. And we can give the name of table by Name Box on the top left into data_online_courses.
+2. To explore more the using of Microsoft Excel, turn the data into table format using Tables features on Insert. And give the name of table by Name Box on the top left into data_online_courses.
 <img width="1365" height="894" alt="Image" src="https://github.com/user-attachments/assets/4fecf049-0a81-437d-8aa5-ecc9fa5b90f0" />
 <img width="960" height="512" alt="Image" src="https://github.com/user-attachments/assets/4b9a0fef-f5dc-4326-aeda-3da30f46d92e" />
 
