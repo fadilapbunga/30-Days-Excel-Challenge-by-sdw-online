@@ -10,6 +10,17 @@
 ***
 
 ## Identification Database
+| Course Name        | Instructor | Registered Students | Completed Students
+| ---------------    | ---------- | ------------------- | ----------------- | 
+| Intro to Python    | Alex       | 120                 | 100               |
+| Excel for Business | Nina       | 95                  | 80                |
+| SQL Bootcamp       | Chris      | 140                 | 125               |
+| Data Visualization | Taylor     | 85                  | 75                |
+| Power BI Mastery   | Jordan     | 110                 | 98                |		
+			
+
+	
+
 
 ***
 
