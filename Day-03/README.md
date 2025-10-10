@@ -70,11 +70,13 @@ Sheets & Tasks:
    - Only row 1 contains the rate, so use: =B2 * $C$2
 
 
-
-
 ***
 
 ## Solving Step or Analysis
+
+**1. Freelance Tracker:**
+    - Add new column D to create a 'Total Pay' and contains value which =B2 * C2, etc
+
 
 ***
 
