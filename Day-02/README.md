@@ -27,7 +27,7 @@
 ***
 
 ## Solving Step or Analysis
-1. Use =Proper at another column to capitalize project name column like at column I.
+1. Use '=Proper' at another column to capitalize project name column like at column I.
 <img width="1920" height="1018" alt="Image" src="https://github.com/user-attachments/assets/d6cc4373-45f7-44d6-ae6d-37d5eb1cc74d" />
 
 And then Copy the values into the initial column. The result is that every project name list has its first letter capitalized.
@@ -68,4 +68,7 @@ After that, use the ‘Filter’ feature to standardize the ‘Completed’ colu
 
 
 ## Results Overview
+The project data has been tidied up to make it clearer, more uniform, and ready for analysis. Project names have been capitalized correctly using the PROPER function, while the Fee and Fee per Hour columns have been formatted into US Dollars. Project start dates are displayed in an easy-to-read format, such as 15-Jan-2024, and the Completed column now only displays Yes or No options to ensure data consistency.
+
+All columns have also been set to AutoFit so that the table contents are fully visible without being cut off. For easy identification, rows with an Hourly Fee below $75 are automatically highlighted using conditional formatting. The table title row is bolded and underlined for a neater and more professional look.
 <img width="960" height="509" alt="Image" src="https://github.com/user-attachments/assets/ae07fe17-6f9c-4f36-8943-3999d55f8a93" />
