@@ -55,11 +55,11 @@ After that, use the ‘Filter’ feature to standardize the ‘Completed’ colu
 5. Check again one more time, make sure to auto-fit all columns values so that the value is clearly legible.
 <img width="960" height="509" alt="Image" src="https://github.com/user-attachments/assets/30ed3806-7943-4d27-b382-f8ea12f878b8" />
 
-6.
+6. Using 'Conditional Formatting' to higlight the Fee per Hour that less than $75, and color with red. <aking it easier to see at a glance which ones have a higher value or not.
 <img width="1920" height="1024" alt="Image" src="https://github.com/user-attachments/assets/4a812341-bd61-4c6d-802c-f8a9d2a348d6" />
 <img width="960" height="509" alt="Image" src="https://github.com/user-attachments/assets/faa37763-f79f-4ab8-a7e6-134c30514d5c" />
 
-7.
+7. Adding 'Bottom Border' at Home tab
 <img width="1920" height="1018" alt="Image" src="https://github.com/user-attachments/assets/2466b628-c6e5-48d6-bc0c-97a0bf15e097" />
 <img width="960" height="510" alt="Image" src="https://github.com/user-attachments/assets/f7c98f88-e463-48ef-ad35-6ac6cabb4e19" />
 
