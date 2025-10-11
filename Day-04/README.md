@@ -9,6 +9,15 @@
 ***
 
 ## Identification Database
+The workbook is about an online course sales across different regions and months. And it has variety of columns like Month, Course, Region, Sales, Expenses, Profit as many as 200 lines in Dollar US. Below, the workbook table contains approximately three examples of initial data. 
+
+| Month |    Course     | Region | Sales ($) | Expenses ($) | Profit ($) |
+| ----- | ------------- | ------ | --------- | ------------ | ---------- |
+| Oct   | AI Prompting  | East   | 2555      | 1805         | 750        |
+| Aug   | Data Cleaning | West   | 5085      | 3027         | 2058       |
+| Aug   | Phyton Basics | North  | 4221      | 4640         | -419       |
+| ...   | ............. | ....   | ....      | ....         | ....       |
+
 
 ***
 
