@@ -35,7 +35,7 @@ The workbook is about an online course sales across different regions and months
 ***
 
 ## Solving Step or Analysis
-1. Sort Sales ($) from the highest to lowest, using Sort and Filter features at Editing. It turns out Mount September with Ppwer BI Course at South Region has the highest sales with $6962
+1. Sort Sales ($) from the highest to lowest, using Sort and Filter features at Editing. It turns out in September with Power BI Course at South Region have the highest sales with $6962 and in Feb with AI Prompting at South Region have the lowest sales with $1042.
 
 <img width="1924" height="1016" alt="Image" src="https://github.com/user-attachments/assets/adf6e3b7-b900-4716-9a2c-042e146b49b3" />
 <img width="960" height="494" alt="Image" src="https://github.com/user-attachments/assets/a5047155-9e63-4648-9e71-d3b2c5a7b2fe" />
@@ -65,19 +65,20 @@ And the image below is the result of sorting and filtering.
 ***
 
 4.
+- Create column 'Profit Margin' with formula: Profit($) / Sales($)
 <img width="1922" height="1022" alt="image" src="https://github.com/user-attachments/assets/3d69e921-78c9-4483-a8dd-4d89302e7354" />
 
+- Use filter to sort Profit Margin from the lowest into highest. And the result is at the second picture. The lowest Profit Margin is -3,81 in Feb by AI Prompting course, South Region.
 <img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/81a5a9be-cecf-4e26-818e-af6a50c2dc08" />
 <img width="960" height="509" alt="image" src="https://github.com/user-attachments/assets/c6f98cb6-e28c-4515-a5e3-573f23cab2a3" />
 
+- Use sorting to find Profit Margin from the highest into lowest. And the result is at the second picture. The higest Profit Margin are 0,87 in April by Power BI course, West region and in May by AI Prompting course, South region.
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/de3cb48e-57db-4a7b-a364-f8568d538e69" />
 <img width="960" height="508" alt="image" src="https://github.com/user-attachments/assets/db2309b4-75f7-4199-95ce-6b2158b1fe6e" />
-
-
-
 
 
 ***
 
 
 ## Results Overview
+- 
