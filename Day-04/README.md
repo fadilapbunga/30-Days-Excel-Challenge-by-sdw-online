@@ -81,7 +81,7 @@ And the image below is the result of sorting and filtering.
 
 
 ## Results Overview
-Sales data has been processed through sorting, filtering, and profit margin calculations to make it easier to analyze. The dataset is sorted by Sales ($) from highest to lowest, and then re-sorted by Profit ($) and Month alphabetically to see monthly profit patterns.
+Sales data has been processed through sorting, filtering, and profit margin calculations to make it easier to analyze. The dataset is sorted by Sales from highest to lowest, and then re-sorted by Profit and Month alphabetically to see monthly profit patterns.
 
 A filter was then applied to display only data with Sales > $6,000, Profit between $1,000–$3,000, and Region limited to North or West, so that the analysis could be more specific.
 
