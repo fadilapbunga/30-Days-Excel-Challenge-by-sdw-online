@@ -34,18 +34,27 @@ To practice Conditional Formatting, there are 2 sheets to help highlight pattenr
 <img width="1312" height="1021" alt="image" src="https://github.com/user-attachments/assets/389f7d78-9553-4df4-89dd-70c855dd7216" />
 
 - Highlight Ratings below 3.5 in yellow using Conditional Formatting 'Less Than'
-<img width="1434" height="1021" alt="image" src="https://github.com/user-attachments/assets/c30fa366-63a9-43e3-8e60-1f29b26c24b5" />
+<img width="637" height="338" alt="image" src="https://github.com/user-attachments/assets/010c934a-17da-405b-ad6a-37119f45136c" />
+
 
 ***
 
 **Sandwich Shop Sheet**
-
-
+- Add Data Bar to Juice Sales located in C2:C11
+- Add traffic light icons for Total Profit located in D2:D11
+- Add a 3-color scale for Sandwich Sales located in B2:B11
 <img width="1926" height="1022" alt="image" src="https://github.com/user-attachments/assets/3b0b47e7-1a2c-4ec8-b578-5c6937314ad5" />
-
-
 
 ***
 
 
 ## Results Overview
+**Online Order Sheet**
+- There are 61 whose Order Values are below than $150
+- There are 22 whose doesn't have Delivery Delay
+- There are 185 whose Ratings are below 3.5
+
+**Sandwich Shop Sheet**
+- Of the Sandwich Sales column, white is the most popular color and red is the least popular.
+- Of the Juice Sales column, the least sales have short line data bar but for the most popular sales have long line data bar.
+- Of Total Profit column, the black one have the least profit, the gray one have the middle profit, and the red one have the most profit.
