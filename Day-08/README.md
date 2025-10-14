@@ -90,4 +90,8 @@ For task 3, there are several conditions that require the use of two functions i
 
 
 ## Results Overview
-
+- Initially, there were many students with Fail status who needed intervention, indicating poor academic performance.
+- After applying IF and IFS logic, it was found that most students with a Final Exam Score ≥ 50 passed and did not need intervention.
+- Students with a score ≥ 85 were categorized as Distinction, indicating excellent academic performance.
+- The Intervention Flag feature is effective in helping the academic team identify students who need special attention (attendance < 75% or score < 50).
+- Overall, Excel logic helps create an efficient and easy-to-understand automated grading system.
