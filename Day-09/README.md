@@ -48,4 +48,21 @@ Sort or filter to analyze the data efficiently.
 
 ## Solving Step or Analysis
 
+<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/f1a4bfc8-d9cb-4fb6-9683-2a7b53d40140" />
+
+***
+
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/f0eb1fca-b130-47d3-a3b7-f578aaa7ff85" />
+
+***
+
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/f4e49a4d-41ab-4432-90ce-190032ec65e6" />
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/287210da-8870-418d-aa05-860a2f7d5778" />
+
+***
+
+
+
+## Results Overview
+
 ***
