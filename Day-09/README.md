@@ -95,7 +95,33 @@ Sort or filter to analyze the data efficiently.
 - To extract the last name, use three combined formulas: RIGHT, LEN, and FIND. This extracts the last name starting from the right with num_chars being the total number of characters minus any characters encountered if they are spaces or “ ”, meaning that character extraction from the right will stop if a space is found in the characters. If someone does not have a last name, then the column will be written as “No Last Name” using the IFERROR formula.
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/7e7511c0-f782-43c4-acea-5d3b4c3d3399" />
 
+***
+
+✅ Task 6: Count Product Name Length
+
+- Use =LEN($J2) to count number of characters in each product name.
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/1c5254d7-c7ad-4fda-877b-4c2eca518e6f" />
+
+***
+
+🎨 BONUS – Add Conditional Formatting
+
+- Use conditional formatting by giving a yellow fill color to quantities greater than or equal to 3.
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a7444874-57c7-4691-a950-7088b14b72f2" />
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/f28bf071-68d1-43b8-9112-1e5ca4781920" />
+
+***
+
+- Use conditional formatting by giving a red fill color to someone who does not have a last name.
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/d614e20d-09f3-463c-8dd0-38e32af64613" />
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a04a4cfd-6358-419e-8359-dd4252d34e0b" />
+
 
 ## Results Overview
+
+Based on the analysis of the above data using filters or sorting, there are:
+- 256 data points with a quantity greater than 3
+- 37 people who do not have a last name.
+- And there are 30 data points that have a quantity greater than 3 and do not have a last name/both.
 
 ***
