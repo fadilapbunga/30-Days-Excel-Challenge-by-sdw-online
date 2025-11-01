@@ -8,13 +8,13 @@
 
 ***
 
-### Identification Database 
+### <div align="center"><ins>Identification Database</ins></div>
 To practice this function, it consists of data with messy writing formats as shown in the image below.
 <img width="960" height="509" alt="image" src="https://github.com/user-attachments/assets/c665840f-8e2d-4da4-8935-9f53bff12ad1" />
 
 ***
 
-### Identification Issues
+### <div align="center"><ins>Identification Issues</ins></div>
 Today’s challenge is to clean and transform messy text data using Excel’s text functions.
 You’ll work with customer orders and apply formulas to make the data clean, structured, and ready for analysis.
 
@@ -53,7 +53,7 @@ Sort or filter to analyze the data efficiently.
 
 ***
 
-### Solving Step or Analysis
+### <div align="center"><ins>Solving Step or Analysis</ins></div>
 
 ✅ __Task 1: Clean the Order ID__
 
@@ -123,8 +123,9 @@ Sort or filter to analyze the data efficiently.
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/d614e20d-09f3-463c-8dd0-38e32af64613" />
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a04a4cfd-6358-419e-8359-dd4252d34e0b" />
 
+***
 
-### Results Overview
+### <div align="center"><ins>Results Overview</ins></div>
 
 Based on the analysis of the above data using filters or sorting, there are:
 - Using the __UPPERCASE__ formula in the Order ID column capitalizes all letters.
