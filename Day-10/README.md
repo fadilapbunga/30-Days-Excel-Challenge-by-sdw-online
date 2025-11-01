@@ -41,7 +41,7 @@ These functions help you find spending patterns across clubs quickly.
 
 ***
 
-## Solving Step or Analysis
+### Solving Step or Analysis
 
 ✅ __Task 1: Total Expense by Branch__
 
@@ -89,7 +89,7 @@ These functions help you find spending patterns across clubs quickly.
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/c57a56b3-09c1-48f4-9090-00ee28ab5f03" />
 
 
-## Results Overview
+### Results Overview
 - Total expenses were successfully calculated per branch using the __SUMIF__ function, resulting in the highest value in the Downtown branch at $713,131 and the lowest in Uptown at $563,124.
 - Using __COUNTIF__, we can find out which departments have the most transactions, namely the Staff department with 85, and the lowest are in Marketing and Maintenance.
 - Find the most expensive item, which is 15,970, using the __MAX__ formula, and the least expensive item, which is 1,624, using the __MIN__ formula.
