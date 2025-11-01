@@ -8,13 +8,13 @@
 
 ***
 
-### Identification Database
+### <div align="center"><ins>Identification Database</ins></div>
 There is a dataset from a university's admin team and we were asked to help them assess student progress by applying logical formulas. The dataset is at 'Student Performance' sheet. It contains Student ID,	Name,	Course,	Attendance (%),	Test Score,	Final Exam Score,	Pass Status,	Grade Category, and	Intervention Flag. Like the picture below:
 <img width="959" height="508" alt="image" src="https://github.com/user-attachments/assets/b4a730b0-45fc-46b1-b17b-488ee73a913d" />
 
 ***
 
-### Identification Issues
+### <div align="center"><ins>Identification Issues</ins></div>
 There are 3 tasks that must be completed.
 
 ✅ __Task 1 – Determine Pass Status__
@@ -39,7 +39,7 @@ Flag students as needing intervention if:
 
 ***
 
-### Solving Step or Analysis
+### <div align="center"><ins>Solving Step or Analysis</ins></div>
 
 ✅ __Task 1 – Determine Pass Status__
 
@@ -95,9 +95,8 @@ __2.__ And for this sort, use a custom sort based on cell color. We want to know
 ***
 
 
-### Results Overview
-- Initially, there were many students with Fail status who needed intervention, indicating poor academic performance.
-- After applying IF and IFS logic, it was found that most students with a Final Exam Score ≥ 50 passed and did not need intervention.
-- Students with a score ≥ 85 were categorized as Distinction, indicating excellent academic performance.
-- The Intervention Flag feature is effective in helping the academic team identify students who need special attention (attendance < 75% or score < 50).
-- Overall, Excel logic helps create an efficient and easy-to-understand automated grading system.
+### <div align="center"><ins>Results Overview</ins></div>
+- With the __IF__ formula, you can find out which students passed or failed their final exams. If the final exam score is above 50, the student passes, and vice versa.
+- Using the __IFS__ formula, final exam scores can be divided into assessment categories. Students with scores of ≥ 85 are categorized as Distinction, which indicates excellent academic achievement.
+- Use __IF__ with __AND/OR__ to find out which students meet the criteria: Attendance is less than 75% OR Final Exam Score is less than 50. The Intervention Flag feature is effective in helping the academic team identify students who need special attention.
+- To make it easier for readers to identify which students need intervention, __Conditional Formatting__ can make the text red or highlight it.
