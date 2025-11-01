@@ -19,25 +19,32 @@ Today’s challenge is to clean and transform messy text data using Excel’s te
 You’ll work with customer orders and apply formulas to make the data clean, structured, and ready for analysis.
 
 ✅ __Task 1: Clean the Order ID__
+
 Use =UPPER(A2) to make all Order IDs uppercase.
 
 ✅ __Task 2: Standardize Customer Names__
+
 Use =PROPER(B2) to format names like "jOHN sMITH" into "John Smith"
 
 ✅ __Task 3: Trim Product Names__
+
 Use =TRIM(C2) to remove unwanted spaces.
 
 ✅ __Task 4: Extract Product Code Details__
+
 Use =MID(E2,5,LEN(E2)-4) to extract the unique product ID after "PRD-".
 
 ✅ __Task 5: Split Full Name into First and Last Name__
+
 First Name: =LEFT(B2, FIND(" ", B2)-1)
 Last Name: =IF(ISNUMBER(FIND(" ", B2)), RIGHT(B2, LEN(B2)-FIND(" ", B2)), "No Last Name")
 
 ✅ __Task 6: Count Product Name Length__
+
 Use =LEN(C2) to count number of characters in each product name.
 
 🎨 __BONUS – Add Conditional Formatting__
+
 - Yellow Fill: Quantity >= 3
 - Red Fill: Customers with "No Last Name"
 
