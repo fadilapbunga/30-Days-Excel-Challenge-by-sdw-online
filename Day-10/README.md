@@ -8,13 +8,13 @@
 
 ***
 
-### Identification Database
+### <div align="center">Identification Database</div>
 This time, the data training is operations data from multiple fitness club branches. For example:
 <img width="960" height="508" alt="image" src="https://github.com/user-attachments/assets/ec3256df-d6f2-4e03-b8fd-947ea71ca7c8" />
 
 ***
 
-### Identification Issues
+### <h2 align="center">Identification Issues</h2>
 You're working with operations data from multiple fitness club branches.
 Your job is to summarize spending and activity using Excel’s aggregate functions.
 
