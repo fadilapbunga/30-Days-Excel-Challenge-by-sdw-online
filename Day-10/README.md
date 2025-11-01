@@ -8,13 +8,13 @@
 
 ***
 
-### <div align="center">Identification Database</div>
+### <div align="center"><ins>Identification Database</ins></div>
 This time, the data training is operations data from multiple fitness club branches. For example:
 <img width="960" height="508" alt="image" src="https://github.com/user-attachments/assets/ec3256df-d6f2-4e03-b8fd-947ea71ca7c8" />
 
 ***
 
-### <h2 align="center">Identification Issues</h2>
+### <div align="center"><ins>Identification Issues</ins></div>
 You're working with operations data from multiple fitness club branches.
 Your job is to summarize spending and activity using Excel’s aggregate functions.
 
@@ -41,7 +41,7 @@ These functions help you find spending patterns across clubs quickly.
 
 ***
 
-### Solving Step or Analysis
+### <div align="center"><ins>Solving Step or Analysis</ins></div>
 
 ✅ __Task 1: Total Expense by Branch__
 
@@ -88,8 +88,9 @@ These functions help you find spending patterns across clubs quickly.
 - Using the __=COUNTIFS__ formula when you need to count data based on more than two conditions. Here, the first condition is to count data from the marketing department, and the second condition is that the expense is more than 5000.
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/c57a56b3-09c1-48f4-9090-00ee28ab5f03" />
 
+***
 
-### Results Overview
+### <div align="center"><ins>Results Overview</ins></div>
 - Total expenses were successfully calculated per branch using the __SUMIF__ function, resulting in the highest value in the Downtown branch at $713,131 and the lowest in Uptown at $563,124.
 - Using __COUNTIF__, we can find out which departments have the most transactions, namely the Staff department with 85, and the lowest are in Marketing and Maintenance.
 - Find the most expensive item, which is 15,970, using the __MAX__ formula, and the least expensive item, which is 1,624, using the __MIN__ formula.
