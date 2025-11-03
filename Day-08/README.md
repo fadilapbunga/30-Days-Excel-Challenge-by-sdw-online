@@ -9,7 +9,7 @@
 ***
 
 ### <div align="center"><ins>Identification Database</ins></div>
-There is a dataset from a university's admin team and we were asked to help them assess student progress by applying logical formulas. The dataset is at 'Student Performance' sheet. It contains Student ID,	Name,	Course,	Attendance (%),	Test Score,	Final Exam Score,	Pass Status,	Grade Category, and	Intervention Flag. Like the picture below:
+There is a dataset from a university's admin team and we were asked to help them assess student progress by applying logical formulas. The dataset is at 'Student Performance' sheet. It contains __Student ID,	Name,	Course,	Attendance (%),	Test Score,	Final Exam Score,	Pass Status,	Grade Category, and	Intervention Flag.__ Like the picture below:
 <img width="959" height="508" alt="image" src="https://github.com/user-attachments/assets/b4a730b0-45fc-46b1-b17b-488ee73a913d" />
 
 ***
@@ -87,6 +87,8 @@ or
 
 __1.__ Use conditional formatting with two rules, namely equal to, then change the fill color according to the command.
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/123556db-b40c-41f2-a03d-868a86b155fc" />
+
+---
 
 __2.__ And for this sort, use a custom sort based on cell color. We want to know that the top row only contains students who need intervention, so change the custom sort to red cells and place them on top. .              
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/108ffc93-7f1d-447f-9b32-442bbfac8d49" />
