@@ -8,7 +8,7 @@
 
 ***
 
-## Identification Database
+### <div align="center">Identification Database</ins></div>
 The table below shows performance data for 5 online courses.
 | Course Name        | Instructor | Registered Students | Completed Students
 | ---------------    | ---------- | ------------------- | ----------------- | 
@@ -21,7 +21,7 @@ The table below shows performance data for 5 online courses.
 
 ***
 
-## Identification Issues
+### <div align="center">Identification Issues</ins></div>
 - Use a formula to calculate the completion rate (as a percentage).
 - Explore the formula bar, ribbon tabs (Home, Formulas, Insert), and name box.
 - Try adding a new row for a course of your choice and calculate its completion rate.
@@ -30,29 +30,39 @@ The table below shows performance data for 5 online courses.
 
 ***
 
-## Solving Step or Analysis
-1. To find out the completion rate(%) of Registered and Completed Students for the table, the formula generally used is this:
-  ````excel
+### <div align="center">Solving Step or Analysis</ins></div>
+__1.__
+- To find out the completion rate(%) of Registered and Completed Students for the table, the formula generally used is this:
+
+
+````excel
 		(Completed Students / Registered Students) x 100% 
  ````
-Which is, write the formula above on Formula Bar where the completion rate column is
+
+Which is, write the formula above on Formula Bar where the completion rate column is:
 <img width="1489" height="910" alt="Image" src="https://github.com/user-attachments/assets/2ed9ccf0-53aa-495a-bfb2-730805cd634c" />
 
-For example, based on the image above, Completion Rate column is in column E. So click Formula on Ribbon Tabs and then click Insert Formula on E7 and write down the formula on Formula Bar like =$D7/$C7 since Registered and Completed Students column on C and D. And since the Microsoft Excel has extensive features for working with percentages, turn the number result by click the Percent Styles to format as a percent.
+- For example, based on the image above, Completion Rate column is in column E. So click __Formula on Ribbon Tabs__ and then click Insert Formula on E7 and write down the formula on Formula Bar like __=$D7/$C7__ since Registered and Completed Students column on C and D. And since the Microsoft Excel has extensive features for working with percentages, turn the number result by click the __Percent Styles to format as a percent__.
 
-2. To explore more the using of Microsoft Excel, turn the data into table format using Tables features on Insert. And give the name of table by Name Box on the top left into data_online_courses.
+***
+
+__2.__
+- To explore more the using of Microsoft Excel, turn the data into table format using __Tables__ features on __Insert__. And give the name of table by Name Box on the top left into data_online_courses.
 <img width="1365" height="894" alt="Image" src="https://github.com/user-attachments/assets/4fecf049-0a81-437d-8aa5-ecc9fa5b90f0" />
 <img width="960" height="512" alt="Image" src="https://github.com/user-attachments/assets/4b9a0fef-f5dc-4326-aeda-3da30f46d92e" />
 
+***
 
-3. To sharpen knowledge on the first day, i try it again with the different numbers at new sheet and even i add Data Bars in Conditional Formatting.
-
+__3.__
+- To sharpen knowledge on the first day, i try it again with the different numbers at new sheet and even i add Data Bars in Conditional Formatting.
 <img width="539" height="496" alt="Image" src="https://github.com/user-attachments/assets/617a2cdd-825a-4c84-9cc9-b78b090a4d5d" />
 
 ***
 
 
-## Results Overview
+### <div align="center">Results Overview</ins></div>
+<div align="center">
+
 | Course Name        | Instructor | Registered Students | Completed Students| Completion Rate (%) 
 | ---------------    | ---------- | ------------------- | ----------------- | -------------------
 | Intro to Python    | Alex       | 120                 | 100               | 83%
@@ -60,5 +70,7 @@ For example, based on the image above, Completion Rate column is in column E. So
 | SQL Bootcamp       | Chris      | 140                 | 125               |89%
 | Data Visualization | Taylor     | 85                  | 75                |88%
 | Power BI Mastery   | Jordan     | 110                 | 98                |	89%
+
+</ins></div>
 
 The classes with the highest completion rates are SQL Bootcamp and Power BI Mastery, each with a completion rate of 89%.
