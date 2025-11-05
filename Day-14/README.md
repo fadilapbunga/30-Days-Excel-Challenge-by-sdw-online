@@ -8,16 +8,16 @@
 
 ***
 
-## Identification Database
+### <div align="center">Identification Database</ins></div>
 
 ***
 
-## Identification Issues
+### <div align="center">Identification Issues</ins></div>
 
 ***
 
-## Solving Step or Analysis
+### <div align="center">Solving Step or Analysis</ins></div>
 
 ***
 
-## Results Overview
+### <div align="center">Results Overview</ins></div>
