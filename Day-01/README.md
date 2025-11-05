@@ -9,6 +9,8 @@
 ***
 
 ### <div align="center">Identification Database</ins></div>
+<div align="center">
+
 The table below shows performance data for 5 online courses.
 | Course Name        | Instructor | Registered Students | Completed Students
 | ---------------    | ---------- | ------------------- | ----------------- | 
@@ -18,6 +20,7 @@ The table below shows performance data for 5 online courses.
 | Data Visualization | Taylor     | 85                  | 75                |
 | Power BI Mastery   | Jordan     | 110                 | 98                |		
 			
+</ins></div>
 
 ***
 
@@ -55,7 +58,7 @@ __2.__
 
 __3.__
 - To sharpen knowledge on the first day, i try it again with the different numbers at new sheet and even i add Data Bars in Conditional Formatting.
-<img width="539" height="496" alt="Image" src="https://github.com/user-attachments/assets/617a2cdd-825a-4c84-9cc9-b78b090a4d5d" />
+ <div align="center"><img width="539" height="496" alt="Image" src="https://github.com/user-attachments/assets/617a2cdd-825a-4c84-9cc9-b78b090a4d5d" /></ins></div>
 
 ***
 
