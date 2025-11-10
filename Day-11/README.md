@@ -93,6 +93,13 @@ Use slicers or pivot charts to enhance your analysis.
 ***
 
 📌 __BONUS__
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b66acae0-90cc-4ed5-9672-decb2b854310" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5e80dc1b-2a88-45d2-8a1e-3b8e5858c97b" />
+<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/a0c9bb18-b2ef-4967-a134-fbbe05172222" />
+<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/45d53d65-41de-4627-83e3-1fe729ea164c" />
+
+
+
 
 
 
