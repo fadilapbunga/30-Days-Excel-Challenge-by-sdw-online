@@ -97,25 +97,28 @@ Use slicers or pivot charts to enhance your analysis.
 - To do slicer on pivot table, click __PivotTable Analyze__ tab and __Insert Slicer__. Check the column to be selected. Here, try to check the __Region__. And add __Bar Chart__ region field by click __Pivot Chart__.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b66acae0-90cc-4ed5-9672-decb2b854310" />
 
+---
+
 - Make sure that __Report Connections__ for __Region__ is into __PivotTable 1__ as we created before. But for some analyze it can be change based on the purpose. But here, i try to only connect into one pivot table.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5e80dc1b-2a88-45d2-8a1e-3b8e5858c97b" />
 
-- 
+---
+
+- In the __slicer__, we can choose whether we want to display regions in several areas or all of them. Below, I tried to display only regions from Africa and Asia, so I only needed to click on those regions and the chart would follow.
 <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/a0c9bb18-b2ef-4967-a134-fbbe05172222" />
+
+---
+
+- For another, i tried to display only regions from Africa and the chart only showed data from Africa.
 <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/45d53d65-41de-4627-83e3-1fe729ea164c" />
 
+---
 
-
+- In the slicer, you can also combine charts between pivot table 1 and other pivot tables. Below are images of each chart from each pivot table that has been created above. And each has its own slicer on the right. 
 <img width="960" height="510" alt="image" src="https://github.com/user-attachments/assets/c877db6e-8943-4a58-a2b9-89cc7999611f" />
+
+- When collecting data, for example, we want to know how the Online Course Enrollment Tracker from North America and South America is performing among people aged 25-34. The chart will display this information, allowing us to carefully examine the data. We can see that people from North America and South America are not taking Python courses with a free subscription, and they are not taking SQL Mastery courses with a pro or standard subscription. And most of them sign up through Email Campaigns.
 <img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/494fb058-cff9-4b2c-9652-50e838d6f8f5" />
-
-
-
-
-
-
-
-
 
 ***
 
