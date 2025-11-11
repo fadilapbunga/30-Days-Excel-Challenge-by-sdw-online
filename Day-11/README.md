@@ -117,9 +117,17 @@ Use slicers or pivot charts to enhance your analysis.
 - In the slicer, you can also combine charts between pivot table 1 and other pivot tables. Below are images of each chart from each pivot table that has been created above. And each has its own slicer on the right. 
 <img width="960" height="510" alt="image" src="https://github.com/user-attachments/assets/c877db6e-8943-4a58-a2b9-89cc7999611f" />
 
+---
+
 - When collecting data, for example, we want to know how the Online Course Enrollment Tracker from North America and South America is performing among people aged 25-34. The chart will display this information, allowing us to carefully examine the data. We can see that people from North America and South America are not taking Python courses with a free subscription, and they are not taking SQL Mastery courses with a pro or standard subscription. And most of them sign up through Email Campaigns.
 <img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/494fb058-cff9-4b2c-9652-50e838d6f8f5" />
 
 ***
 
 ### <div align="center">Results Overview</ins></div>
+- With pivot tables, we can see that Africa with 2070 (US Dollar) has the highest revenue and Europe with 1206 (US Dollar) has the lowest.
+- The most popular subscription type is Standard, with 131 subscribers.
+- The most common signup channel is Organic, with 109 subscribers.
+- The most engaged age group is 35-44, with 977 subscribers.
+- Most subscribers who chose the Pro subscription type selected Phyton Basic, with 27 subscribers.
+
