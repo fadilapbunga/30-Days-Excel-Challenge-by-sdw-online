@@ -125,7 +125,7 @@ Use slicers or pivot charts to enhance your analysis.
 ***
 
 ### <div align="center">Results Overview</ins></div>
-- With pivot tables, we can see that Africa with 2070 (US Dollar) has the highest revenue and Europe with 1206 (US Dollar) has the lowest.
+- With __pivot tables__, we can see that Africa with 2070 (US Dollar) has the highest revenue and Europe with 1206 (US Dollar) has the lowest.
 - The most popular subscription type is Standard, with 131 subscribers.
 - The most common signup channel is Organic, with 109 subscribers.
 - The most engaged age group is 35-44, with 977 subscribers.
