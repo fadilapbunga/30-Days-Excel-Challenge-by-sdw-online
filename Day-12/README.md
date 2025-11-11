@@ -17,7 +17,7 @@ There is a dataset consisting of the columns __Ticket ID, Date Submitted, Issue 
 ### <div align="center">Identification Issues</ins></div>
 You're part of a Customer Support team at a tech company. The leadership team needs insights from the support ticket system to improve operations.
 
-✅ Tasks:
+✅ __Tasks:__
 1. Which issue types are reported most often?
    - Use a pivot table with Issue Type in Rows, Count of Ticket ID in Values.
 
@@ -33,14 +33,61 @@ You're part of a Customer Support team at a tech company. The leadership team ne
 5. How do ticket counts trend month-by-month?
    - Group Date Submitted by Month in Rows, Count of Ticket ID in Values.
 
-Bonus:
+📌 __Bonus:__
 - Add a Timeline to filter by date
 - Try a calculated field for something like Satisfaction per Hour: User Rating / Time to Resolution
 
 ***
 
 ### <div align="center">Solving Step or Analysis</ins></div>
+ 
+- First, check the data to see if it is neat and in the correct format __(Data Cleaning)__.
+- The data below shows that the format in the __Date Submitted__ column is still messy, so the data format is changed to __dd-mm-yyyy__ so that the data only displays the desired date.
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/dd0c1fef-5096-4efc-aa8e-38391e44bbaf" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/48f91fe2-aaf0-479f-be0e-8a5cebf5f8f9" />
+
+---
+
+1️⃣
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/457e3c7f-baf2-45d5-b808-44c3083ee6f0" />
+
+---
+
+2️⃣
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/64ea0e47-39a0-4dc9-8962-6efb35601522" />
+
+---
+
+3️⃣
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a2109937-e89e-4844-97e1-91626c7cf4d0" />
+
+
+---
+
+4️⃣
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8eef1cbe-17e6-4b80-8bbc-56e633443f9d" />
+
+
+---
+
+5️⃣
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/f238a474-7e36-43ee-bb9e-cf0dc99ced60" />
+
+---
+
+📌 __Bonus__
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/66332570-5b51-41d2-9e2d-c36888edd4f0" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b4a4e930-aab3-4d89-b9bb-a6b0c0dc5484" />
+
+
+
+---
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4311eeea-8431-4b4f-a292-5e1223c5b280" />
+
 
 ***
 
 ### <div align="center">Results Overview</ins></div>
+<img width="825" height="263" alt="image" src="https://github.com/user-attachments/assets/e5d9cfb5-bf5d-4d01-aac7-52e406812a65" />
+
