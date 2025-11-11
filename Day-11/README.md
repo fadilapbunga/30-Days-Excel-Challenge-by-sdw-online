@@ -93,12 +93,21 @@ Use slicers or pivot charts to enhance your analysis.
 ***
 
 📌 __BONUS__
+
+- To do slicer on pivot table, click __PivotTable Analyze__ tab and __Insert Slicer__. Check the column to be selected. Here, try to check the __Region__. And add __Bar Chart__ region field by click __Pivot Chart__.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b66acae0-90cc-4ed5-9672-decb2b854310" />
+
+- Make sure that __Report Connections__ for __Region__ is into __PivotTable 1__ as we created before. But for some analyze it can be change based on the purpose. But here, i try to only connect into one pivot table.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5e80dc1b-2a88-45d2-8a1e-3b8e5858c97b" />
+
+- 
 <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/a0c9bb18-b2ef-4967-a134-fbbe05172222" />
 <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/45d53d65-41de-4627-83e3-1fe729ea164c" />
 
 
+
+<img width="960" height="510" alt="image" src="https://github.com/user-attachments/assets/c877db6e-8943-4a58-a2b9-89cc7999611f" />
+<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/494fb058-cff9-4b2c-9652-50e838d6f8f5" />
 
 
 
