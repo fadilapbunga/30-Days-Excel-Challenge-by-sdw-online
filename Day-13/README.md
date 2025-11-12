@@ -41,6 +41,33 @@ Your job is to apply data validation rules to prevent bad data entry.
 
 ### <div align="center">Solving Step or Analysis</ins></div>
 
+1️⃣
+- Choose column C:C is the __Age__ column to be validated using __Data Validation__
+- Open the __Data menu → Data Validation__
+- Select __“Allow: Whole Number”__
+- Select __Data between 18 and 65__
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/93d1f713-de92-46f5-84a4-b95cd37ec0d0" />
+
+---
+
+2️⃣
+- Choose column D:D is the __Salary($)__ column to be validated using __Data Validation__
+- Open the __Data menu → Data Validation__
+- Select __“Allow: Date”__
+- Select __Data between Start Date: 2020-01-01 and End Date: =TODAY()__
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/2d3d2157-5221-4772-aabd-b90d3445ed97" />
+
+---
+
+3️⃣
+- Choose column E:E is the __Start Date__ column to be validated using __Data Validation__
+- Open the __Data menu → Data Validation__
+- Select __“Allow: Whole Number”__
+- Select __Data between 30.000 and 200.000__
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/53bf83d7-cd4f-4032-bd4b-2c9d6fc375df" />
+
+
+
 ***
 
 ### <div align="center">Results Overview</ins></div>
