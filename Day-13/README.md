@@ -148,7 +148,7 @@ Your job is to apply data validation rules to prevent bad data entry.
 - To ensure that data validation has been applied correctly, here I try to enter only the name __“bunga.”__ With one of the characters that is a requirement, it turns out that the data doesn't match and __must contain 2 characters__.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e7da9e77-813d-4f9a-a19d-9843e5fba939" />
 
---
+---
 - When entering an email address __correctly and containing the two required characters, namely “.” and “@”__, the data entered is correct, and data validation rules help prevent incorrect or messy data entries.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d5af9548-319a-4a2d-ab3e-19ec13eb0cc6" />
 
