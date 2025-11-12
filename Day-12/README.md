@@ -49,28 +49,38 @@ You're part of a Customer Support team at a tech company. The leadership team ne
 ---
 
 1️⃣
+- Create a new pivot table area in __B3.__
+- Drag __Issue Type__ field to Rows and drag __Count of Ticket ID in Values.__
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/457e3c7f-baf2-45d5-b808-44c3083ee6f0" />
 
 ---
 
 2️⃣
+- Create a new pivot table area in __F3.__
+- Drag __Platform__ field to Rows and drag __Count of Ticket ID in Values.__
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/64ea0e47-39a0-4dc9-8962-6efb35601522" />
 
 ---
 
 3️⃣
+- Create a new pivot table area in __L3.__
+- Drag __Priority__ field to Rows and drag __Average of Time to Resolution in Values.__
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a2109937-e89e-4844-97e1-91626c7cf4d0" />
 
 
 ---
 
 4️⃣
+- Create a new pivot table area in __B14.__
+- Drag __Category__ field to Rows and drag __Average of Time to Resolution in Values.__ And apply conditional formatting. The lower the rating, the plainer the color (white), and vice versa; the thicker the color, the higher the rating.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8eef1cbe-17e6-4b80-8bbc-56e633443f9d" />
 
 
 ---
 
 5️⃣
+- Create a new pivot table area in __L3.__
+- Drag __Group Date Submitted by Month__ field to Rows and drag __Count of Ticket ID in Values.__
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/f238a474-7e36-43ee-bb9e-cf0dc99ced60" />
 
 ---
