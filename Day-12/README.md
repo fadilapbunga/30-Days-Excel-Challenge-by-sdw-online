@@ -87,17 +87,29 @@ You're part of a Customer Support team at a tech company. The leadership team ne
 
 📌 __Bonus__
 
+- The use of __Timeline__ is generally the same as the use of __Slicer__ the previous day. First, when clicking __Timeline__, it must ensure that the __Report Connection__ is connected to the intended pivot table. Then, Timeline can only be applied to the __Date Format__. This allows us to view data according to the desired date/month/year.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/66332570-5b51-41d2-9e2d-c36888edd4f0" />
+
+- Here, I just want to see the data from the entire pivot table that was created earlier, but only for __February__. So, click on the __Timeline__ that shows __February__, and the data will automatically follow.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b4a4e930-aab3-4d89-b9bb-a6b0c0dc5484" />
 
 
-
 ---
+
+- Additionally, a new column called Satisfaction per Hour has been added with the following formula:
+````excel
+		=[@[User Rating (1-5)]]/[@[Time to Resolution (hrs)]]
+ ````
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4311eeea-8431-4b4f-a292-5e1223c5b280" />
 
 
 ***
 
 ### <div align="center">Results Overview</ins></div>
-<img width="825" height="263" alt="image" src="https://github.com/user-attachments/assets/e5d9cfb5-bf5d-4d01-aac7-52e406812a65" />
+- Based on the __pivot table__, the most frequently reported issue type is __Account Suspension, with 19 cases__.
+- The platform that generates the most support tickets is __Android, with a total of 36__.
+- The average resolution time by priority level is __47 for High, 41 for Low, 40 for Medium, and 35 for Urgent__.
+- The ticket category with the lowest user rating is __Billing at 2.5__.
+- The trend in the number of tickets per month based on the data only occurred in three months, namely __January with 37 reports, February with 31 reports, and March with 32 reports__.
+<div align="center"><img width="825" height="263" alt="image" src="https://github.com/user-attachments/assets/e5d9cfb5-bf5d-4d01-aac7-52e406812a65" /></ins></div>
 
