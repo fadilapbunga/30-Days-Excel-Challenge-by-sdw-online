@@ -122,4 +122,34 @@ Your job is to apply data validation rules to prevent bad data entry.
 
 ### <div align="center">Results Overview</ins></div>
 
+1️⃣
+- To ensure that data validation has been applied correctly, I tried entering an age of __17__, which is outside the requirements, and the result was __“The value doesn't match the data validation restrictions defined for this cell.”__ A message regarding age restrictions appeared.
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/760a627d-bf63-4479-bacd-a017d9ef5e43" />
+
+---
+
+2️⃣
+- To ensure that data validation has been applied correctly, here I try to enter a salary of __15.000__, which is outside the requirements, and the result is a warning that we must enter a salary within the requested range.
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/3e009add-53f9-4e22-8af0-7e2a01369d90" />
+
+---
+
+3️⃣
+- To ensure that data validation has been applied correctly, I tried entering a date that is __tomorrow or later than today, namely 11/13/2025__. The result shows that __“The value doesn't match the data validation restrictions defined for this cell".__ This means that data validation is working correctly according to the specified conditions.
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/d335d257-b7e4-458a-8a2c-056072bf4b7f" />
+
+---
+
+4️⃣
+- To ensure that data validation has been applied correctly, here I try to enter only the name __“bunga”__ without the __“.” or “@”__ symbols, and it turns out that the data entered __does not match__.
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6586e985-8eee-4728-9ff4-b083421a82e2" />
+
+---
+- To ensure that data validation has been applied correctly, here I try to enter only the name __“bunga.”__ With one of the characters that is a requirement, it turns out that the data doesn't match and __must contain 2 characters__.
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e7da9e77-813d-4f9a-a19d-9843e5fba939" />
+
+--
+- When entering an email address __correctly and containing the two required characters, namely “.” and “@”__, the data entered is correct, and data validation rules help prevent incorrect or messy data entries.
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d5af9548-319a-4a2d-ab3e-19ec13eb0cc6" />
+
 
