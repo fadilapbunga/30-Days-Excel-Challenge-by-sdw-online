@@ -129,7 +129,7 @@ Your job is to apply data validation rules to prevent bad data entry.
 ---
 
 2️⃣
-- To ensure that data validation has been applied correctly, here I try to enter a salary of __15.000__, which is outside the requirements, and the result is a warning that we must enter a salary within the requested range.
+- To ensure that data validation has been applied correctly, here I try to enter a salary of __15.000__, which is outside the requirements, and the result is __a warning__ that we must enter a salary within the requested range.
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/3e009add-53f9-4e22-8af0-7e2a01369d90" />
 
 ---
