@@ -81,9 +81,40 @@ Use data validation to improve data quality and prevent future errors in reporti
 ````excel
 		=F2>=E2+1
  ````
-- The meaning of the above formula is that
 
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a223afff-ec1e-400c-9b04-49032faf841c" />
+
+---
+
+- Choose column G:G is the __Price($)__ column to be validated using __Data Validation__
+- Open the __Data menu → Data Validation__
+- Select __“Allow: Whole Number”__
+- Select __"Data between $100 and $20000"__
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/cf83621e-95e4-4746-a5a1-f372ac84cff4" />
+
+---
+
+- Choose column H:H is the __Email__ column to be validated using __Data Validation__
+- Open the __Data menu → Data Validation__
+- Select __“Allow: Custom”__
+- Enter the following formula:
+
+````excel
+		=AND(ISNUMBER(SEARCH("@";H2)); ISNUMBER(SEARCH(".";H2)))
+ ````
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c93f529c-cb26-4c13-85cc-94b55df760f8" />
+
+---
+
+2️⃣
+
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/6699fc34-8cad-4091-9f00-76233f3a0222" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2e3c793e-e819-4a22-8686-3175922eec8f" />
+
+
+
+
+
 
 
 ***
