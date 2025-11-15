@@ -45,15 +45,36 @@ Your task is to highlight key insights using conditional formatting.
 
 ### <div align="center">Solving Step or Analysis</ins></div>
 
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/020d1ed8-0d70-4675-822f-fc7bed05143d" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/934b93c3-aa42-4134-aa03-ca2f60e486ea" />
+
+---
+
 1️⃣
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/d190ba77-2a4c-4058-9ca6-079c8e2cb918" />
+
+---
+
 
 2️⃣
+<img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/82072278-4cef-4274-ad1f-8aaa4312b114" />
+
+---
+
 
 3️⃣
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/400bd759-1ed3-41e5-af00-10aff646b34b" />
+
+---
 
 4️⃣
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/5c749f55-0eef-4a1a-83d6-5a880f40a5f9" />
+
+---
+
 
 5️⃣
+<img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/42370c8d-81a1-48f9-914e-3e646c05280d" />
 
 
 
