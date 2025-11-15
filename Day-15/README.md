@@ -76,6 +76,15 @@ Your task is to highlight key insights using conditional formatting.
 5️⃣
 <img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/42370c8d-81a1-48f9-914e-3e646c05280d" />
 
+---
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4656c24a-2a32-47b9-aa4b-15d267da4f2d" />
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/7ed25583-7edb-413d-9946-6bacf586be54" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/71210aa3-8880-4497-aa6d-76ef0c521c20" />
+
+
+
+
 
 
 
