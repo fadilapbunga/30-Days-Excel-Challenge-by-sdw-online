@@ -45,18 +45,29 @@ Your task is to highlight key insights using conditional formatting.
 
 ### <div align="center">Solving Step or Analysis</ins></div>
 
+- First, convert the data into a table format by pressing __CTRL + T__.
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/020d1ed8-0d70-4675-822f-fc7bed05143d" />
+
+---
+
+- Then, clean the data by checking whether the data format is correct. If the __Date of Purchase__ format is still incorrect, change the format to __‘dd-mm-yyyy’__.
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/934b93c3-aa42-4134-aa03-ca2f60e486ea" />
 
 ---
 
 1️⃣
+- To highlight all orders placed on a weekend (Saturday or Sunday), use the formula __=WEEKDAY__ because the result will be returned to the number on that day in the selected cell date. For example, if the date is __11/17/2025 (today)__, then using the formula __=WEEKDAY__ will return the number __1__ because today is __Monday__, and __Monday is the first day of the week__. Weekends (Saturday or Sunday) are the __6th and 7th days of the week__, so the formula used is as follows:
+````excel
+		=WEEKDAY($D2;2)>=6
+ ````
+
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/d190ba77-2a4c-4058-9ca6-079c8e2cb918" />
 
 ---
 
 
 2️⃣
+- Highlight customers who spent more than $12,000 using Conditional Formatting Custom with formula: __=$E2>12000__
 <img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/82072278-4cef-4274-ad1f-8aaa4312b114" />
 
 ---
