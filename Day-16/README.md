@@ -101,3 +101,7 @@ There are two datasets originating from Warehouse Operations for a retail compan
 ***
 
 ### <div align="center">Results Overview</ins></div>
+- Today I learned two important functions in Excel: VLOOKUP and HLOOKUP.
+Both are like “automatic search tools,” only they differ in direction—one searches downwards, the other searches sideways.
+With this exercise, I now understand better how Excel can retrieve data with just one keyword, without having to search manually.
+This exercise has made me more comfortable working with large tables and faster at finding important information.
