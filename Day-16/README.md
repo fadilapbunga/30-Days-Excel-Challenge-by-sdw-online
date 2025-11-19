@@ -56,7 +56,21 @@ There are two datasets originating from Warehouse Operations for a retail compan
  ````
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/9c6ad5ef-8cd9-4ac1-b103-542d12a2e9f6" />
 
+---
 
+2️⃣
+- To find the product's Region from the same table, se the VLOOKUP formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ProductShipments sheet, and the col_index_num is 5__ because the region is in column 5.
+
+````excel
+        =VLOOKUP($C$6;Table1;5;FALSE)
+ ````
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/487798ac-5ef1-4751-98f4-55527aac6966" />
+
+- Next, to fill in the __Product Name__ and __Category__ rows, use the same formula as above, but the only difference is in __col_index_num__. For Product Name, it is in column number __2__, and for Category, it is in column number __3__.
+  
+---
+
+3️⃣
 
 
 ***
