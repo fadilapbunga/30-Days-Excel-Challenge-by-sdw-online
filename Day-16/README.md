@@ -48,7 +48,7 @@ There are two datasets originating from Warehouse Operations for a retail compan
 
 ---
 
-- To find which warehouse a product is stored in using its Product ID, use the VLOOKUP formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ProductShipments sheet, and the col_index_num is 4__ because the warehouse is in column 4.
+- To find which warehouse a product is stored in using its Product ID, use the __=VLOOKUP__ formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ProductShipments sheet, and the col_index_num is 4__ because the warehouse is in column 4.
 - When selecting another product ID, the warehouse data will follow.
 
 ````excel
@@ -59,7 +59,7 @@ There are two datasets originating from Warehouse Operations for a retail compan
 ---
 
 2️⃣
-- To find the product's Region from the same table, se the VLOOKUP formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ProductShipments sheet, and the col_index_num is 5__ because the region is in column 5.
+- To find the product's Region from the same table, use the __=VLOOKUP__ formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ProductShipments sheet, and the col_index_num is 5__ because the region is in column 5.
 
 ````excel
         =VLOOKUP($C$6;Table1;5;FALSE)
@@ -71,7 +71,32 @@ There are two datasets originating from Warehouse Operations for a retail compan
 ---
 
 3️⃣
+- To find __Max Weight (Kg)__ allowed for that Region, use the __=HLOOKUP__ formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ShippingRules sheet, and the col_index_num is 2__ because the __Max Weight (Kg)__ is in row 2.
 
+````excel
+        =HLOOKUP($C$4;ShippingRules!$A$1:$E$4;2;FALSE)
+ ````
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/803c9fa8-a4ec-4e37-90c6-c23766e466f1" />
+
+---
+
+4️⃣
+- To find __Delivery Time (Days)__ for that Region, use the __=HLOOKUP__ formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ShippingRules sheet, and the col_index_num is 3__ because __Delivery Time (Days)__ is in row 3.
+
+````excel
+        =HLOOKUP($C$4;ShippingRules!$A$1:$E$4;3;FALSE)
+ ````
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/eec80856-4614-4305-aa1f-f04b88d62566" />
+
+---
+
+- To find __Shipping Cost($)__ for that Region, use the __=HLOOKUP__ formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ShippingRules sheet, and the col_index_num is 4__ because __Shipping Cost ($)__ is in row 4.
+
+````excel
+        =HLOOKUP($C$4;ShippingRules!$A$1:$E$4;4;FALSE)
+ ````
+
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/08920b25-46eb-4aef-b5dc-751d011be279" />
 
 ***
 
