@@ -10,6 +10,7 @@
 
 ### <div align="center">Identification Database</ins></div>
 There is a dataset from Customer Support Ticket Management, and here, as a Support Operations Analyst, we are expected to manage daily support activities.
+
 ✅ __Dataset 1 (Sheet: SupportTickets):__
 - Records of support tickets raised by customers
 - Fields: Ticket ID, Customer Name, Issue Type, Assigned Agent, Department, Priority
@@ -28,12 +29,33 @@ There is a dataset from Customer Support Ticket Management, and here, as a Suppo
 4. Use INDEX-MATCH to check if the agent is On Call that day.
 5. BONUS: Add a dropdown for Ticket ID to drive the lookup dynamically.
 
-
-
-
 ***
 
 ### <div align="center">Solving Step or Analysis</ins></div>
+
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/bbd30468-dbbb-4f3e-9bdd-c8e93388cfed" />
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/18b69f4c-3d31-4bc9-9d66-0edeff2f62a9" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e0845fc3-45f8-4736-aaa5-77471f905897" />
+
+---
+
+1️⃣
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/39e9ad6d-329c-490e-bb51-9611e399d4d3" />
+
+---
+
+2️⃣
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c9ea2762-d290-4fe9-b2c3-a396e5a29dfc" />
+
+---
+
+3️⃣
+
+
+
+
+
+
 
 ***
 
