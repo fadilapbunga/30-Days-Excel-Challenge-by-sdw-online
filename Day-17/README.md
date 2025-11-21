@@ -36,7 +36,7 @@ There is a dataset from Customer Support Ticket Management, and here, as a Suppo
 ***
 
 ### <div align="center">Solving Step or Analysis</ins></div>
-- Create a list for ticket IDs by taking data from the SupportTicket sheet with the source:
+- Create a list for ticket IDs by taking data from the __SupportTicket__ sheet with the source:
 
 ````excel
         =SupportTickets!$A$2:$A$328
