@@ -47,7 +47,7 @@ There is a dataset from Customer Support Ticket Management, and here, as a Suppo
 
 - Determine the lookup value → __Customer Name__ on the __SupportTickets Sheet__
 - Set the reference data range in the __SupportTickets__ table
-- Fill in the __Customer Name__ column with the INDEX + MATCH formula:
+- Fill in the __Customer Name__ column with the __INDEX + MATCH__ formula:
 
 ````excel
         =INDEX(Table1[Customer Name];MATCH(Sheet1!$C$3;Table1[Ticket ID];0))
@@ -59,7 +59,7 @@ There is a dataset from Customer Support Ticket Management, and here, as a Suppo
 
 - Determine the lookup value → __Issue Type__ on the __SupportTickets Sheet__
 - Set the reference data range in the __SupportTickets__ table
-- Fill in the __Issue Type__ column with the INDEX + MATCH formula:
+- Fill in the __Issue Type__ column with the __INDEX + MATCH__ formula:
 
 ````excel
         =INDEX(Table1[Issue Type];MATCH(Sheet1!$C$3;Table1[Ticket ID];0))
@@ -93,15 +93,37 @@ There is a dataset from Customer Support Ticket Management, and here, as a Suppo
 ---
 
 3️⃣
+
+To access __Available Hours__, one day must be selected in a week, so the day dropdown list is created by:
+- Create a list for Days by taking data from the __AgentAvailability__ sheet with the source:
+
+````excel
+        =AgentAvailability!$B$1:$F$1
+ ````
+
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/acce5ba0-a4eb-4747-8cb3-d4d6c6a9b96c" />
 
 ---
 
+- Determine the lookup value → __Available Hours__ on the __AgentAvailability Sheet__
+- Set the reference data range in the __AgentAvailability__ table
+- Fill in the __Available Hours__ column with the INDEX + MATCH formula:
+
+````excel
+        =INDEX(AgentAvailability!$B$2:$F$4;MATCH(Sheet1!$B$9;AgentAvailability!$A$2:$A$4;0);MATCH(Sheet1!$F$3;AgentAvailability!$B$1:$F$1;0))
+ ````
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/9118068c-d6d9-4515-8904-95248be8a42e" />
 
 ---
 
 4️⃣
+- Determine the lookup value → __On Call__ on the __AgentAvailability Sheet__
+- Set the reference data range in the __AgentAvailability__ table
+- Fill in the __On Call__ column with the INDEX + MATCH formula:
+
+````excel
+        =INDEX(AgentAvailability!$B$2:$F$4;MATCH(Sheet1!$B$10;AgentAvailability!$A$2:$A$4;0);MATCH(Sheet1!$F$3;AgentAvailability!$B$1:$F$1;0))
+ ````
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/96fc9bd4-1e84-43ea-9117-c9f2de168f75" />
 
 ***
