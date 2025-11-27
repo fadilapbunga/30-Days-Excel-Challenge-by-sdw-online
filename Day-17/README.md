@@ -129,3 +129,9 @@ To access __Available Hours__, one day must be selected in a week, so the day dr
 ***
 
 ### <div align="center">Results Overview</ins></div>
+- On Day 17, I explored the use of __INDEX + MATCH__ as a more flexible lookup alternative to classic lookup functions.
+- With the combination of __INDEX + MATCH__, I can search for data based on a key (lookup value) in one column/row __(MATCH)__, then retrieve the corresponding value from another column/row __(INDEX)__ — without the key column needing to be in the leftmost column. 
+- This technique is very useful if the table structure changes: the column order can shift, but the formula remains valid.
+- I used this method to automate data entry (for example, retrieving the ticket name from the Ticket ID), thereby reducing manual errors and speeding up the data analysis process. 
+- This exercise reinforced my understanding of reference logic in Excel: how to find rows/columns with __MATCH__, then retrieve values with __INDEX__ — a fundamental and important skill for data analysis.
+
