@@ -11,8 +11,9 @@
 ***
 
 ### <div align="center">Identification Database</ins></div>
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/70b2f8c3-9bad-4bcd-97b4-363b84307431" />
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/62a914e5-aa41-4b2d-bf57-b94eb50c0613" />
+At a medical clinic, there are two datasets as shown in the images below:
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/70b2f8c3-9bad-4bcd-97b4-363b84307431" /></ins></div>
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/62a914e5-aa41-4b2d-bf57-b94eb50c0613" /></ins></div>
 
 
 ***
@@ -30,7 +31,7 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
 - Rows: Consultation Fee, Lab Tests, Free Checkups
 - Columns: Basic, Standard, Premium
 
-📌 Tasks:
+📌 __Tasks:__
 1. Use XLOOKUP to find the assigned doctor for a given Patient ID.
 2. Use XLOOKUP to find the Health Plan for a given Patient.
 3. Use XLOOKUP to return Consultation Fee based on the plan.
@@ -40,7 +41,17 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
 ***
 
 ### <div align="center">Solving Step or Analysis</ins></div>
-<img width="630" height="526" alt="image" src="https://github.com/user-attachments/assets/799dda70-9934-4d99-aafd-4def10e00236" />
+- To make today's work easier, I tried to create the display below to fill in the exercises to be done, as if the image below were a patient's paper in a medical clinic.
+<div align="center"><img width="630" height="526" alt="image" src="https://github.com/user-attachments/assets/799dda70-9934-4d99-aafd-4def10e00236" /></ins></div>
+
+---
+- Create a list for __Patient ID__ by taking data from the __Appointments__ sheet with the source:
+
+````excel
+        =Appointments!$A$2:$A$363
+ ````
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c5a552b7-acdd-415e-b856-cc7cd63c1658" />
+
 
 ***
 
