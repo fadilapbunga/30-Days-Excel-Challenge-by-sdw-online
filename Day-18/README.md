@@ -52,6 +52,15 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
  ````
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c5a552b7-acdd-415e-b856-cc7cd63c1658" />
 
+---
+
+<img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/a2c78e03-41bf-4c8d-8821-bcdc68bb1bf9" />
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/8627f37e-3a23-4de9-9835-62a11a365b4b" />
+
+---
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/de99200e-a349-447b-93cf-28cf7e587c9d" />
+
 
 ***
 
