@@ -50,14 +50,7 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
 <div align="center"><img width="630" height="526" alt="image" src="https://github.com/user-attachments/assets/799dda70-9934-4d99-aafd-4def10e00236" /></ins></div>
 
 ---
-- Create a list for __Patient ID__ by taking data from the __Appointments__ sheet with the source:
 
-````excel
-        =Appointments!$A$2:$A$363
- ````
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c5a552b7-acdd-415e-b856-cc7cd63c1658" />
-
----
 
 1️⃣
 - To find the __Assigned Doctor__ based on the __Patient ID__, use the __=VLOOKUP__ formula as shown below, where the __lookup_value is the Patient ID row itself, the table_array is Table1 in the Appointments sheet, and the col_index_num is 4__ because the __Assigned Doctor__ is in row 4.
@@ -89,7 +82,6 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
 
 ---
 
-3️⃣
 - To find the __Patient Name__, this time let's use a combination of the __INDEX MATCH__ formula as shown below:
 - Determine the lookup value → __Patient Name__ on the __Appointments Sheet__
 - Set the reference data range in the __Appointments Sheet__
@@ -114,16 +106,43 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
 
 ---
 
-4️⃣
+3️⃣️
 - To find the __Consultation Fee__, this time let's use a combination of the __INDEX MATCH__ formula as shown below:
 - Determine the lookup value → __Consultation Fee__ on the __HealthPlanCoverage Sheet__
 - Set the reference data range in the __HealthPlanCoverage Sheet__
-- Fill in the __HealthPlanCoverage__ column with the __INDEX + MATCH__ formula:
+- Fill in the __Consultation Fee__ column with the __INDEX + MATCH__ formula:
 
 ````excel
         =INDEX(HealthPlanCoverage!$B$2:$D$4;MATCH($B$15;HealthPlanCoverage!$A$2:$A$4;0);MATCH(Sheet1!$C$12;HealthPlanCoverage!$B$1:$D$1;0))
  ````
 <img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/1fee1dde-3134-45ee-8002-20e21408036a" />
+
+---
+
+4️⃣
+- To find the __Free Checkups__, this time let's use a combination of the __INDEX MATCH__ formula as shown below:
+- Determine the lookup value → __Free Checkups__ on the __HealthPlanCoverage Sheet__
+- Set the reference data range in the __HealthPlanCoverage Sheet__
+- Fill in the __Free Checkups__ column with the __INDEX + MATCH__ formula:
+
+````excel
+        =INDEX(HealthPlanCoverage!$B$2:$D$4;MATCH(Sheet1!$B$16;HealthPlanCoverage!$A$2:$A$4;0);MATCH(Sheet1!$C$12;HealthPlanCoverage!$B$1:$D$1;0))
+ ````
+
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/75662dad-b4cb-4b65-a65f-fafe87f66d28" />
+
+---
+
+5️⃣
+- Create a list for __Patient ID__ by taking data from the __Appointments__ sheet with the source:
+
+````excel
+        =Appointments!$A$2:$A$363
+ ````
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c5a552b7-acdd-415e-b856-cc7cd63c1658" />
+<img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/9e05a652-a034-41a1-a7fe-84a0101b1beb" />
+
+
 
 
 ***
