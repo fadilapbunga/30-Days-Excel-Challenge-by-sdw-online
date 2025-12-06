@@ -71,7 +71,7 @@ There are two datasets originating from Warehouse Operations for a retail compan
 ---
 
 3️⃣
-- To find __Max Weight (Kg)__ allowed for that Region, use the __=HLOOKUP__ formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ShippingRules sheet, and the col_index_num is 2__ because the __Max Weight (Kg)__ is in row 2.
+- To find __Max Weight (Kg)__ allowed for that Region, use the __=HLOOKUP__ formula as shown below, where the __lookup_value is the Region row itself, the table_array is in the ShippingRules sheet, and the col_index_num is 2__ because the __Max Weight (Kg)__ is in row 2.
 
 ````excel
         =HLOOKUP($C$4;ShippingRules!$A$1:$E$4;2;FALSE)
@@ -81,7 +81,7 @@ There are two datasets originating from Warehouse Operations for a retail compan
 ---
 
 4️⃣
-- To find __Delivery Time (Days)__ for that Region, use the __=HLOOKUP__ formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ShippingRules sheet, and the col_index_num is 3__ because __Delivery Time (Days)__ is in row 3.
+- To find __Delivery Time (Days)__ for that Region, use the __=HLOOKUP__ formula as shown below, where the __lookup_value is the Region row itself, the table_array is in the ShippingRules sheet, and the col_index_num is 3__ because __Delivery Time (Days)__ is in row 3.
 
 ````excel
         =HLOOKUP($C$4;ShippingRules!$A$1:$E$4;3;FALSE)
@@ -90,7 +90,7 @@ There are two datasets originating from Warehouse Operations for a retail compan
 
 ---
 
-- To find __Shipping Cost($)__ for that Region, use the __=HLOOKUP__ formula as shown below, where the __lookup_value is the Product ID row itself, the table_array is in the ShippingRules sheet, and the col_index_num is 4__ because __Shipping Cost ($)__ is in row 4.
+- To find __Shipping Cost($)__ for that Region, use the __=HLOOKUP__ formula as shown below, where the __lookup_value is the Region row itself, the table_array is in the ShippingRules sheet, and the col_index_num is 4__ because __Shipping Cost ($)__ is in row 4.
 
 ````excel
         =HLOOKUP($C$4;ShippingRules!$A$1:$E$4;4;FALSE)
