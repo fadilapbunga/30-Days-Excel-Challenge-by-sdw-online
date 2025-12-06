@@ -32,11 +32,16 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
 - Columns: Basic, Standard, Premium
 
 📌 __Tasks:__
-1. Use XLOOKUP to find the assigned doctor for a given Patient ID.
-2. Use XLOOKUP to find the Health Plan for a given Patient.
-3. Use XLOOKUP to return Consultation Fee based on the plan.
-4. Use XLOOKUP to return Free Checkup frequency.
-5. BONUS: Add a dropdown for selecting Patient ID dynamically.
+
+1️⃣ Use XLOOKUP to find the assigned doctor for a given Patient ID.
+
+2️⃣ Use XLOOKUP to find the Health Plan for a given Patient.
+
+3️⃣ Use XLOOKUP to return Consultation Fee based on the plan.
+
+4️⃣ Use XLOOKUP to return Free Checkup frequency.
+
+5️⃣ BONUS: Add a dropdown for selecting Patient ID dynamically.
 
 ***
 
@@ -54,12 +59,71 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
 
 ---
 
-<img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/a2c78e03-41bf-4c8d-8821-bcdc68bb1bf9" />
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/8627f37e-3a23-4de9-9835-62a11a365b4b" />
+1️⃣
+- To find the __Assigned Doctor__ based on the __Patient ID__, use the __=VLOOKUP__ formula as shown below, where the __lookup_value is the Patient ID row itself, the table_array is Table1 in the Appointments sheet, and the col_index_num is 4__ because the __Assigned Doctor__ is in row 4.
+
+````excel
+        =VLOOKUP($D$6;Table1;4;FALSE)
+ ````
+
+<div align="center"><img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/a2c78e03-41bf-4c8d-8821-bcdc68bb1bf9" /></ins></div>
 
 ---
 
+- And to fill in the __Doctor's Department__, use the __=VLOOKUP__ formula as shown below, where the __lookup_value is the Doctor's Department row itself, the table_array is Table1 in the Appointments sheet, and the col_index_num is 5__ because the __Doctor's Department__ is in row 5.
+
+````excel
+        =VLOOKUP($D$6;Table1;5;FALSE)
+ ````
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/8627f37e-3a23-4de9-9835-62a11a365b4b" /></ins></div>
+
+---
+
+2️⃣
+- To find the __Health Plan__ based on the __Patient ID__, use the __=VLOOKUP__ formula as shown below, where the __lookup_value is the Patient ID row itself, the table_array is Table1 in the Appointments sheet, and the col_index_num is 6__ because the __Health Plan__ is in row 6.
+
+````excel
+        =VLOOKUP($D$6;Table1;6;FALSE)
+ ````
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/de99200e-a349-447b-93cf-28cf7e587c9d" />
+
+---
+
+3️⃣
+- To find the __Patient Name__, this time let's use a combination of the __INDEX MATCH__ formula as shown below:
+- Determine the lookup value → __Patient Name__ on the __Appointments Sheet__
+- Set the reference data range in the __Appointments Sheet__
+- Fill in the __Patient Name__ column with the __INDEX + MATCH__ formula:
+
+````excel
+        =INDEX(Table1[Patient Name];MATCH(Sheet1!$D$6;Table1[Patient ID];0))
+ ````
+<img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/016e07ec-5509-4199-8a6f-4e8c0dd44f2b" />
+
+---
+
+- To find the __Appointment Date__, this time let's use a combination of the __INDEX MATCH__ formula as shown below:
+- Determine the lookup value → __Appointment Date__ on the __Appointments Sheet__
+- Set the reference data range in the __Appointments Sheet__
+- Fill in the __Appointment Date__ column with the __INDEX + MATCH__ formula:
+
+````excel
+        =INDEX(Table1[Appointment Date];MATCH(Sheet1!$D$6;Table1[Patient ID];0))
+ ````
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/9958f771-4f50-4320-9b7a-bb85981be7d6" />
+
+---
+
+4️⃣
+- To find the __Consultation Fee__, this time let's use a combination of the __INDEX MATCH__ formula as shown below:
+- Determine the lookup value → __Consultation Fee__ on the __HealthPlanCoverage Sheet__
+- Set the reference data range in the __HealthPlanCoverage Sheet__
+- Fill in the __HealthPlanCoverage__ column with the __INDEX + MATCH__ formula:
+
+````excel
+        =INDEX(HealthPlanCoverage!$B$2:$D$4;MATCH($B$15;HealthPlanCoverage!$A$2:$A$4;0);MATCH(Sheet1!$C$12;HealthPlanCoverage!$B$1:$D$1;0))
+ ````
+<img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/1fee1dde-3134-45ee-8002-20e21408036a" />
 
 
 ***
