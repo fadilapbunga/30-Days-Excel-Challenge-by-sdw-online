@@ -96,6 +96,7 @@ After doing so, it turned out that the results were the same, namely that no dup
 
 ---
 
+-After that, use the __Replace__ feature to replace the category name with the exact unique name and rename them one by one as shown in the image below.
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/25dcd163-69fc-4db7-94a5-8e2984c67933" /></ins></div>
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/abb10540-ac59-43c2-a4ff-e090e853e944" /></ins></div>
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/2e66ee04-a8d8-4ccf-be9d-d7b6b93378cc" /></ins></div>
@@ -104,6 +105,10 @@ After doing so, it turned out that the results were the same, namely that no dup
 ---
 4️⃣
 
+<div align="center"><img width="1934" height="1138" alt="image" src="https://github.com/user-attachments/assets/12a64124-abaa-4743-8454-cdab59e7fd2d" /><div align="center">
+
+---
+5️⃣
 
 
 
