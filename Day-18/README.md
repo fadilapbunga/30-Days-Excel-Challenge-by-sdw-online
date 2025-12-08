@@ -133,7 +133,7 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
 
 ---
 
-5️⃣
+5️⃣ __BONUS__
 - Create a list for __Patient ID__ by taking data from the __Appointments__ sheet with the source:
 
 ````excel
@@ -141,8 +141,6 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
  ````
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c5a552b7-acdd-415e-b856-cc7cd63c1658" />
 <img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/9e05a652-a034-41a1-a7fe-84a0101b1beb" />
-
-
 
 
 ***
