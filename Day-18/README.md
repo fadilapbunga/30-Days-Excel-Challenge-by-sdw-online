@@ -146,3 +146,5 @@ You're working as a data analyst for a health clinic. Your job is to pull useful
 ***
 
 ### <div align="center">Results Overview</ins></div>
+On Day 18: XLOOKUP challenge, I successfully built a patient data lookup system using a combination of __VLOOKUP and INDEX+MATCH__ as an alternative to XLOOKUP, which is not available in Excel 2010. The final result is a dynamic lookup form that displays complete patient information (name, visit date, doctor, department, health plan, consultation fee, and free checkups) based on the Patient ID selected via a dropdown menu.
+
