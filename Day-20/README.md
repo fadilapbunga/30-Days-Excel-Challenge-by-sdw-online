@@ -136,24 +136,11 @@ This means that if the column is equal to null, I only want to mark it with the 
 
 ---
 
+- To make the data look better, remove excess spaces in __Transform ▶️ Format ▶️ Trim in the Asset Type and Status columns.__
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/09af817e-3ad9-4866-b59e-38d9bd614177" /></ins></div>
-<div align="center"><img width="1383" height="581" alt="image" src="https://github.com/user-attachments/assets/a6949d3d-b41c-46d5-941d-eee6b33ebb0f" /></ins></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ***
 
 ### <div align="center">Results Overview</ins></div>
+From today's work with __Power Query__, we can conclude that with Power Query, we can clean data all at once without having to change each column individually, which means it makes data cleaning easier.
+<div align="center"><img width="1383" height="581" alt="image" src="https://github.com/user-attachments/assets/a6949d3d-b41c-46d5-941d-eee6b33ebb0f" /></ins></div>
