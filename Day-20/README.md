@@ -24,13 +24,19 @@ Columns include: Asset ID, Assigned User, Department, Asset Type, Monthly Usage 
 ### <div align="center">Identification Issues</ins></div>
 📌 __Tasks to Perform in Power Query:__
 
-1. Load the 'Asset_Log' table into Power Query.
-2. Format the 'Asset Type' and 'Status' columns with Capitalize Each Word.
-3. Remove duplicate asset records.
-4. Fill in missing Department values using Fill Down (after sorting by Asset ID).
-5. Add a flag column called 'Department Status' to label filled rows.
-6. Unpivot 'Jan Usage', 'Feb Usage', and 'Mar Usage' into Month and Usage.
-7. Clean 'Cost':
+1️⃣ Load the 'Asset_Log' table into Power Query.
+
+2️⃣Format the 'Asset Type' and 'Status' columns with Capitalize Each Word.
+
+3️⃣ Remove duplicate asset records.
+
+4️⃣ Fill in missing Department values using Fill Down (after sorting by Asset ID).
+
+5️⃣ Add a flag column called 'Department Status' to label filled rows.
+
+6️⃣ Unpivot 'Jan Usage', 'Feb Usage', and 'Mar Usage' into Month and Usage.
+
+7️⃣ Clean 'Cost':
    - Replace 'N/A' and blank values with nulls
    - Convert column to decimal
    - Add a 'Cost Status' column to flag missing cost info
@@ -44,6 +50,25 @@ Once complete, click Close & Load to return the clean data to Excel.
 ***
 
 ### <div align="center">Solving Step or Analysis</ins></div>
+1️⃣
+- To load the ‘Asset_Log’ table into Power Query, the steps are as follows: __click on the table to be selected ▶️ then click Data ▶️ Get Data ▶️ From Other Sources -▶️ From Table/Range.__
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/d69229da-fc21-49b2-8b34-d54461ec5016" /></ins></div>
+
+---
+2️⃣
+- To format the __'Asset Type'__ and __'Status'__ columns with Capitalize Each Word, the steps are as follow: __click Asset Type and Status Column ▶️ then click Transform ▶️ choose Format ▶️ click Capitalize Each Word__
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a5c9b7ef-cf69-49c5-a6f5-89245e802bd1" /></ins></div>
+
+---
+3️⃣
+- To remove duplicate asset records, the steps are as follow: __Click all columns ▶️ on Home, click Remove Rows ▶️ then click Remove Duplicates__
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/15705c21-ae7b-42f6-9460-05778e3473d7" /></ins></div>
+
+---
+4️⃣
+
+
+
 
 ***
 
