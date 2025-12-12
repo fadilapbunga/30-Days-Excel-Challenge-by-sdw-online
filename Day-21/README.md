@@ -55,49 +55,49 @@ Your job is to clean and prep this for insights using Power Query + PivotTables.
 ### <div align="center">Solving Step or Analysis</ins></div>
 1️⃣ 
 
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/31ea38eb-084e-4f0d-abd1-3664e16495a5" />
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/31ea38eb-084e-4f0d-abd1-3664e16495a5" /></ins></div>
 
 ---
 2️⃣
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/49a41c59-5bb1-433e-87f5-8b76b6a5437c" />
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/49a41c59-5bb1-433e-87f5-8b76b6a5437c" /></ins></div>
 
 ---
 3️⃣
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/e14a036a-110d-4921-9965-83dfe0537043" />
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/e14a036a-110d-4921-9965-83dfe0537043" /></ins></div>
 
 ---
 4️⃣
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b4e1181e-e515-44c3-81bc-37a151ccfb33" />
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b4e1181e-e515-44c3-81bc-37a151ccfb33" />
 
 ---
 5️⃣
 
 1
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a9a7c810-8197-4ec4-827b-c8014e735ecd" />
-<img width="276" height="400" alt="image" src="https://github.com/user-attachments/assets/f9c44eb4-6601-4dac-97fe-815cee1946bd" />
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a9a7c810-8197-4ec4-827b-c8014e735ecd" /></ins></div>
+<div align="center"><img width="276" height="400" alt="image" src="https://github.com/user-attachments/assets/f9c44eb4-6601-4dac-97fe-815cee1946bd" /></ins></div>
 
 
 2
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fb7eab46-63ff-44d7-9520-61c183aec389" />
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/7c204f2c-814d-40f5-99eb-353a383ef93e" />
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fb7eab46-63ff-44d7-9520-61c183aec389" /></ins></div>
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/7c204f2c-814d-40f5-99eb-353a383ef93e" /></ins></div>
 
 3
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/cc01860c-b995-4f30-9768-cda191478f7c" />
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8c737edd-7434-4f0a-b9d1-6a613a42f395" />
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/cc01860c-b995-4f30-9768-cda191478f7c" /></ins></div>
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8c737edd-7434-4f0a-b9d1-6a613a42f395" /></ins></div>
 
 4
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a08e39e4-5ccc-4ce3-b9a6-c0590c06c7b2" />
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a08e39e4-5ccc-4ce3-b9a6-c0590c06c7b2" /></ins></div>
 
 ---
 6️⃣
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/f19f81ed-b3f8-423d-a9a2-81074be4352d" />
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/f19f81ed-b3f8-423d-a9a2-81074be4352d" /></ins></div>
 
 ---
 7️⃣
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/da3d4d1c-8c5d-4bae-90cc-6c59e827aad9" />
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/da3d4d1c-8c5d-4bae-90cc-6c59e827aad9" /></ins></div>
 
 ---
-<img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/e39bf48a-73a1-440e-8b83-91818cb88fc1" />
+<div align="center"><img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/e39bf48a-73a1-440e-8b83-91818cb88fc1" /></ins></div>
 
 
 ***
