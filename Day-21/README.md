@@ -96,15 +96,8 @@ Your job is to clean and prep this for insights using Power Query + PivotTables.
 7️⃣
 <img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/da3d4d1c-8c5d-4bae-90cc-6c59e827aad9" />
 
-
-
-
-
-
-
-
-
-
+---
+<img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/e39bf48a-73a1-440e-8b83-91818cb88fc1" />
 
 
 ***
