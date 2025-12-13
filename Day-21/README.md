@@ -131,18 +131,29 @@ To replace the missing __‘Experience Rating’__ with the __average rating per
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/da3d4d1c-8c5d-4bae-90cc-6c59e827aad9" /></ins></div>
 
 ---
+
+- As an addition to data cleaning, here I want to change the data in the __Submitted On__ column to __only the Date format__, not the Date and time. To change this, click the small arrow next to the column and then click __Date__.
 <div align="center"><img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/e39bf48a-73a1-440e-8b83-91818cb88fc1" /></ins></div>
 
 ---
-__PIVOT__
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/81542105-d80a-4119-8a20-f790acce492c" />
+📈 __PIVOT TABLE CHALLENGE:__
 
-<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/9299301f-1f43-46df-8044-a45d469debab" />
+1️⃣ Counting feedback entries based on City and Session Type with a pivot table is done as follows:
+
+- Drag __City__ field to __Rows__, drag __Session Type__ to __Columns__, and drag __Count of Feedback__ to __Columns__
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/81542105-d80a-4119-8a20-f790acce492c" /></ins></div>
 
 ---
 
-__DASHBOARD__
+2️⃣ Average rating by Event Track with a pivot table is done as follows:
+
+- Drag __Event Track__ field to __Rows__ and drag __Average Experience Rating__ to __Values__.
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/9299301f-1f43-46df-8044-a45d469debab" /></ins></div>
+
+---
+
+📊 __DASHBOARD IDEAS (Optional):__
 
 
 ***
