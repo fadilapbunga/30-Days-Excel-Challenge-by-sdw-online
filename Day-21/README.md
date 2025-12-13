@@ -99,6 +99,17 @@ Your job is to clean and prep this for insights using Power Query + PivotTables.
 ---
 <div align="center"><img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/e39bf48a-73a1-440e-8b83-91818cb88fc1" /></ins></div>
 
+---
+__PIVOT__
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/81542105-d80a-4119-8a20-f790acce492c" />
+
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/9299301f-1f43-46df-8044-a45d469debab" />
+
+---
+
+__DASHBOARD__
+
 
 ***
 
