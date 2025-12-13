@@ -22,27 +22,20 @@ Your job is to clean and prep this for insights using Power Query + PivotTables.
 ### <div align="center">Identification Issues</ins></div>
 ✅ __TASKS TO COMPLETE__
 
-1️⃣ Load the data into Power Query
-
-2️⃣ Standardize 'Event Track' and 'Session Type' to Proper Case
-
-3️⃣ Remove exact duplicates (based on all columns)
-
-4️⃣ Filter out blank Satisfaction scores
-
-5️⃣ Replace missing 'Experience Rating' with average rating per Event Track
-
+1️⃣ Load the data into Power Query  
+2️⃣ Standardize 'Event Track' and 'Session Type' to Proper Case  
+3️⃣ Remove exact duplicates (based on all columns)  
+4️⃣ Filter out blank Satisfaction scores  
+5️⃣ Replace missing 'Experience Rating' with average rating per Event Track  
 6️⃣ Add a new column to categorize ratings:
    - 8–10 = 'Excellent', 5–7 = 'Okay', 1–4 = 'Poor'
 
-7️⃣ Add a 'Feedback Length' column to count the number of words
-
+7️⃣ Add a 'Feedback Length' column to count the number of words  
 8️⃣ Load cleaned table back into Excel
 
 📈 __PIVOT TABLE CHALLENGE:__
 
-1️⃣ Count feedback entries by City and Session Type
-
+1️⃣ Count feedback entries by City and Session Type  
 2️⃣ Average rating by Event Track
 
 📊 __DASHBOARD IDEAS (Optional):__
@@ -68,39 +61,73 @@ __Block the ‘Event Track’ and ‘Session Type’ columns ▶️ Transform �
 
 ---
 3️⃣
+
 Ensure that there is no duplicate data in all columns by:  
 __Selecting all columns ▶️ Home ▶️ Remove Rows ▶️ Remove Duplicates__
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/e14a036a-110d-4921-9965-83dfe0537043" /></ins></div>
 
 ---
 4️⃣
-<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b4e1181e-e515-44c3-81bc-37a151ccfb33" />
+
+To filter out satisfaction scores, or only display data that is not blank/null, simply can __click the small arrow to the right of the satisfaction column__ and __select Remove Empty__.
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b4e1181e-e515-44c3-81bc-37a151ccfb33" /></ins></div>
 
 ---
-5️⃣
+5️⃣  
+To replace the missing __‘Experience Rating’__ with the __average rating per Event Track__, one of the steps that can be taken is to combine __Group By__ and __Merge Query__. On another occasion, another way to do this is to use the __IF formula__. However, on this occasion, I want to use the method of combining __Group By and Merge__.
 
-1
+---
+
+- First, we __duplicate__ the query to create a group by the average experience rating based on Event Track, then we change the query name to __'Group By Avg'__.
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a9a7c810-8197-4ec4-827b-c8014e735ecd" /></ins></div>
 <div align="center"><img width="276" height="400" alt="image" src="https://github.com/user-attachments/assets/f9c44eb4-6601-4dac-97fe-815cee1946bd" /></ins></div>
 
+---
 
-2
+- Then, in the __‘Group By Avg’__ query, click the __Event Track__ column and click __Group By__ on __Home__. Give the newest column the name __‘avg_ratings’__ with the __Average__ operation on __Experience Ratings__.
 <div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fb7eab46-63ff-44d7-9520-61c183aec389" /></ins></div>
+
+---
+
+- Then round the average to one decimal place by going to __Add Column ▶️ Round ▶️ and typing 1.__
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/7c204f2c-814d-40f5-99eb-353a383ef93e" /></ins></div>
 
-3
+---
+
+- Then merge the two queries with a __Left Outer Join__, which keeps all the rows from __the left table (Table 1)__ and brings in any matching rows from __the right table (Group By Avg)__.
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/cc01860c-b995-4f30-9768-cda191478f7c" /></ins></div>
+
+---
+
+- The merge was successful. __Expand the table results (displaying the average numbers)__ by clicking __the two arrows__ in the Group By Avg column and clicking __Round__.
 <div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8c737edd-7434-4f0a-b9d1-6a613a42f395" /></ins></div>
 
-4
+---
+
+- Then, the next step is to create a new column titled __Experience Rating_New__, where the null data should already contain average data based on Event Track with the formula below:
+````excel
+      = if [Experience Rating] = null
+      then [Group By Avg.Round]
+      else [Experience Rating]
+ ````
+
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/a08e39e4-5ccc-4ce3-b9a6-c0590c06c7b2" /></ins></div>
 
 ---
 6️⃣
-<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/f19f81ed-b3f8-423d-a9a2-81074be4352d" /></ins></div>
+
+- Create a __Rating Categorize__ by adding a Conditional Column, where ratings >= 8 are labeled __“Excellent”__, ratings >= 5 are labeled __“Okay”__, and all others are labeled __“Poor”__, as shown in the image below.
+<div align="center"><img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/39e8fe1d-329f-435a-8b9b-8c06553d8efa" /></ins></div>
 
 ---
 7️⃣
+
+- Create a new column called __Feedback Length__, which is the number of characters in the feedback. The formula is as follows:
+````excel
+    = if ([Feedback]= null) then ""
+      else Text.Length ([Feedback])
+ ````
+
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/da3d4d1c-8c5d-4bae-90cc-6c59e827aad9" /></ins></div>
 
 ---
