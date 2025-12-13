@@ -55,14 +55,21 @@ Your job is to clean and prep this for insights using Power Query + PivotTables.
 ### <div align="center">Solving Step or Analysis</ins></div>
 1️⃣ 
 
+To load data into Power Query, you can do the following:  
+__Data ▶️ Get Data ▶️ From Other Sources ▶️ From Table/Range__
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/31ea38eb-084e-4f0d-abd1-3664e16495a5" /></ins></div>
 
 ---
 2️⃣
+
+To ensure that there are no extra spaces in the data, you can use trim. Here, the columns to be checked are the ‘Event Track’ and ‘Session Type’ columns, so the steps to be taken are:  
+__Block the ‘Event Track’ and ‘Session Type’ columns ▶️ Transform ▶️ Format ▶️ Trim__
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/49a41c59-5bb1-433e-87f5-8b76b6a5437c" /></ins></div>
 
 ---
 3️⃣
+Ensure that there is no duplicate data in all columns by:  
+__Selecting all columns ▶️ Home ▶️ Remove Rows ▶️ Remove Duplicates__
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/e14a036a-110d-4921-9965-83dfe0537043" /></ins></div>
 
 ---
