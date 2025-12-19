@@ -170,7 +170,7 @@ This dashboard provides an end-to-end view of event feedback, covering participa
 - Event Track Performance
 - Feedback Length vs Rating
 
-<div align="center"><img width="1346" height="566" alt="image" src="https://github.com/user-attachments/assets/e35695c4-eb83-4ba6-a621-78fda9d15087" /></ins></div>
+<div align="center"><img width="670" height="284" alt="image" src="https://github.com/user-attachments/assets/c1a82d76-2234-4625-98b0-3348476a41a8" /></ins></div>
 
 ***
 
