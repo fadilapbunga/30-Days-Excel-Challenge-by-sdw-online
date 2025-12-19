@@ -155,6 +155,8 @@ To replace the missing __‘Experience Rating’__ with the __average rating per
 
 📊 __DASHBOARD IDEAS (Optional):__
 
+<div align="center"><img width="1346" height="566" alt="image" src="https://github.com/user-attachments/assets/e35695c4-eb83-4ba6-a621-78fda9d15087" /></ins></div>
+
 
 ***
 
