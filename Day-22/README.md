@@ -63,6 +63,10 @@ ubah Gap Width pada series 'Reach' menjadi 60% sehingga tampilan bar dari satu k
 
 ---
 2️⃣ __Are people completing their appointments after registering?__
+- To find out whether people completed their appointments after registering, how many completed and how many dropped out, this can be found in the __dropout_analysis sheet.__
+- First, use a pivot table to sum up each of these. The __Pivot Field__ contains the __‘Completed’ and ‘Dropout’__ columns, which are dragged to __Values__ in __SUM__ format and given the title __‘Yes’__ for people who completed and __‘No’__ for people who did not complete.
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5a3c8242-8514-45ee-9b70-3caad4056c36" /></ins></div>
+
 
 
 ***
