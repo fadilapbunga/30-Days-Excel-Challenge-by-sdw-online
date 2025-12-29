@@ -72,6 +72,9 @@ ubah Gap Width pada series 'Reach' menjadi 60% sehingga tampilan bar dari satu k
 - To find out which age groups are most actively participating in this campaign, it can be seen in the audience_by_age data sheet, select the __Age Group__ and __Registration__ columns, and create a column chart to see the results.
 <div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/62a62d70-804b-4713-b1e3-6389d831b33c" /></ins></div>
 
+---
+4️⃣ __Are there any red flags we should be aware of?__
+
 
 
 
