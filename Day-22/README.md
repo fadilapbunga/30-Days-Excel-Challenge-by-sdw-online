@@ -67,6 +67,12 @@ ubah Gap Width pada series 'Reach' menjadi 60% sehingga tampilan bar dari satu k
 - First, use a pivot table to sum up each of these. The __Pivot Field__ contains the __‘Completed’ and ‘Dropout’__ columns, which are dragged to __Values__ in __SUM__ format and given the title __‘Yes’__ for people who completed and __‘No’__ for people who did not complete.
 <div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5a3c8242-8514-45ee-9b70-3caad4056c36" /></ins></div>
 
+---
+3️⃣ __Which age groups are engaging most with the campaign?__
+- To find out which age groups are most actively participating in this campaign, it can be seen in the audience_by_age data sheet, select the __Age Group__ and __Registration__ columns, and create a column chart to see the results.
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/62a62d70-804b-4713-b1e3-6389d831b33c" /></ins></div>
+
+
 
 
 ***
