@@ -175,3 +175,12 @@ This dashboard provides an end-to-end view of event feedback, covering participa
 ***
 
 ### <div align="center">Results Overview</ins></div>
+On Day 21, data cleaning, standardization, and analysis of event feedback data were carried out using __Power Query and Pivot Table__ in Excel to produce data ready for analysis.  
+
+- The process began by loading the data into Power Query, then standardizing the text format in the Event Track and Session Type columns to ensure consistency. Identical duplicate data was removed to prevent double counting, and rows with empty Satisfaction values were filtered to ensure accurate analysis results. Missing Experience Rating values were filled in using the average rating based on Event Track, so that they still reflected the characteristics of each event category.  
+
+- Next, a rating categorization column was created to group participant satisfaction into Excellent, Okay, and Poor. A Feedback Length column was also added to calculate the number of words in each feedback, enabling a simple analysis of response quality. Once the cleaning process was complete, the tidied data was reloaded into Excel.  
+
+- The analysis was performed using Pivot Table to view the number of feedback based on City and Session Type, as well as the average rating for each Event Track. This data was then ready to be used to create an interactive dashboard with slicers, satisfaction charts, and weekly trend analysis.  
+
+
