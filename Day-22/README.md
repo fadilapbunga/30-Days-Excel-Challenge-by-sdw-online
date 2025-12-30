@@ -90,9 +90,15 @@ ubah Gap Width pada series 'Reach' menjadi 60% sehingga tampilan bar dari satu k
 - The second error found is that the __Completion Rate on the audience_by_age sheet__ cannot be considered valid because it is not fundamental. We cannot calculate the completion rate because there is no calculation division that can be done there. However, keep in mind that sometimes some data is just as it is when we receive it, and it can still be used for analysis if needed in general terms.
 
 ---
-
-
+- Additionally, on the dropout_analysis sheet, add a new column to complete the data in the analysis, namely the __Completion Rate (%)__ column, which is __the inverse of the Dropout Rate (%) column__, using the formula:
+````excel
+        =($C2/$B2)*100
+ ````
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/bf28b611-db93-4d2e-acec-ef23e2084a76" /></ins></div>
 
 ***
 
 ### <div align="center">Results Overview</ins></div>
+
+<div align="center"><img width="1009" height="555" alt="image" src="https://github.com/user-attachments/assets/58932f55-7fe7-4748-bc54-69c0777b4645" /></ins></div>
+
