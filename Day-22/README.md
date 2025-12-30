@@ -75,6 +75,21 @@ ubah Gap Width pada series 'Reach' menjadi 60% sehingga tampilan bar dari satu k
 ---
 4️⃣ __Are there any red flags we should be aware of?__
 
+- Yes, first on the __campaign_engagement sheet__, the __Completion Rate__ column shows the __wrong percentage__ value for the reach rate of each city.
+- So, to calculate the campaign reach rate for each city, create a __new column__ named __‘Reach Rate’__ with the following formula:
+````excel
+        =($C2/$B2)*100
+ ````
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/6a70d5a1-4971-42ef-828c-ad7b3e07ecfa" /></ins></div>
+
+---
+
+- The second error is in the __audience_by_age__ sheet, where several inaccuracies were found. The first is that when adding up the total number of registered participants, the total is 5,700, whereas the number of registered participants when viewed from the other two sheets is 11,500.
+<div align="center"><img width="1608" height="638" alt="image" src="https://github.com/user-attachments/assets/0452c1ec-b441-4b02-80f1-14db0c3ef797" /></ins></div>
+
+- The second error found is that the __Completion Rate on the audience_by_age sheet__ cannot be considered valid because it is not fundamental. We cannot calculate the completion rate because there is no calculation division that can be done there. However, keep in mind that sometimes some data is just as it is when we receive it, and it can still be used for analysis if needed in general terms.
+
+---
 
 
 
