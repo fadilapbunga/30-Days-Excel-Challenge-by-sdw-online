@@ -53,13 +53,11 @@ You need to build visuals that help your managers and stakeholders answer these 
 ### <div align="center">Solving Step or Analysis</ins></div>
 1️⃣ __Which cities are seeing the highest campaign reach?__  
 - To find out which cities achieved the highest campaign engagement, this can be found in the __campaign_engagement sheet__, select the __City__ and __Reach__ columns, and create a bar chart to see the results.
-<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/d0d346f6-ceaf-4e0c-871d-d2d1197fa3d1" /></ins></div>
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/6c5d8faa-f965-421c-ad26-ca73f4d33f15" /></ins></div>
 
-ganti judul dan tebalkan
-hilangankan gridlines
-hilangkan vertical value
-tambahkan data labels di Inside End, ubah tulisan menjadi putih, begitupun dengan Horizontal (Category) Axis
-ubah Gap Width pada series 'Reach' menjadi 60% sehingga tampilan bar dari satu kota kekota lain terlihat tidak terlalu berjarak dan lebih tebal
+---
+- Change the bar chart display from basic to the one shown in the image on the right below:
+<div align="center"><img width="1422" height="438" alt="image" src="https://github.com/user-attachments/assets/028659f9-bc69-41de-a500-579da1a73757" /></ins></div>
 
 ---
 2️⃣ __Are people completing their appointments after registering?__
@@ -68,9 +66,18 @@ ubah Gap Width pada series 'Reach' menjadi 60% sehingga tampilan bar dari satu k
 <div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5a3c8242-8514-45ee-9b70-3caad4056c36" /></ins></div>
 
 ---
+- Change the column chart display from basic to the one shown in the image on the right below:
+<div align="center"><img width="1218" height="554" alt="image" src="https://github.com/user-attachments/assets/d6c37c99-8347-41c8-87c4-092d7538722d" /></ins></div>
+
+
+---
 3️⃣ __Which age groups are engaging most with the campaign?__
 - To find out which age groups are most actively participating in this campaign, it can be seen in the audience_by_age data sheet, select the __Age Group__ and __Registration__ columns, and create a column chart to see the results.
 <div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/62a62d70-804b-4713-b1e3-6389d831b33c" /></ins></div>
+
+---
+- Change the column chart display from basic to the one shown in the image on the right below:
+<div align="center"><img width="1342" height="362" alt="image" src="https://github.com/user-attachments/assets/1bc9901c-1978-4e4c-b449-62bc03a88d9d" /></ins></div>
 
 ---
 4️⃣ __Are there any red flags we should be aware of?__
