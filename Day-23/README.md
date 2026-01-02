@@ -66,7 +66,10 @@ Columns include: Adoption ID, Animal Type,	Breed,	Age (Years),	Adoption Fee,	Ado
 
 ---
 5️⃣
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a413ded1-6b8f-4398-b396-78d845f4315d" />
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a413ded1-6b8f-4398-b396-78d845f4315d" /></ins></div>
+  
+<div align="center"><img width="683" height="587" alt="image" src="https://github.com/user-attachments/assets/018e3896-21fc-4a29-afa6-4fd05483a67b" /></ins></div>
+
 
 
 
