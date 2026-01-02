@@ -37,6 +37,28 @@ Columns include: Adoption ID, Animal Type,	Breed,	Age (Years),	Adoption Fee,	Ado
 ***
 
 ### <div align="center">Solving Step or Analysis</ins></div>
+1️⃣
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c60f5863-ab84-49e3-88c3-ab7ca6c4d2f4" /></ins></div>
+
+<div align="center"><img width="611" height="199" alt="image" src="https://github.com/user-attachments/assets/54afad67-5262-4190-afe8-3579e4a6fea8" /></ins></div>
+
+---
+2️⃣
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/9b89f596-93eb-4be2-afa6-5787b516ea8e" /></ins></div>
+
+<div align="center"><img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/7080a9b5-e5f2-48ce-bd85-015f9cbc3c81" /></ins></div>
+
+<div align="center"><img width="1191" height="415" alt="image" src="https://github.com/user-attachments/assets/8eea0342-1fed-40de-8973-8a89ef05d1db" /></ins></div>
+
+---
+3️⃣
+
+
+
+
+
+
+
 
 ***
 
