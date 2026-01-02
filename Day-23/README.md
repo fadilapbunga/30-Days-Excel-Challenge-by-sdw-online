@@ -71,19 +71,7 @@ Columns include: Adoption ID, Animal Type,	Breed,	Age (Years),	Adoption Fee,	Ado
 <div align="center"><img width="683" height="587" alt="image" src="https://github.com/user-attachments/assets/018e3896-21fc-4a29-afa6-4fd05483a67b" /></ins></div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ***
 
 ### <div align="center">Results Overview</ins></div>
+This project demonstrates that complete and accurate data analysis can be achieved using fundamental Excel techniques, even without dynamic array support, highlighting strong problem-solving skills and adaptability to real-world tool limitations.
