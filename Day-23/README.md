@@ -65,13 +65,25 @@ Columns include: Adoption ID, Animal Type,	Breed,	Age (Years),	Adoption Fee,	Ado
 ````excel
     = SORTBY($A$1:$H:$401;$E:$E;-1)
  ````
+▶️ Use the __=TAKE__ function to retrieve the top 10 data using the formula below, where row is __10__ because it is the first 10 from top to bottom, and column is __8__ because it is from left to right.
+````excel
+    = TAKE($A$1:$H:$401;10;8)
+ ````
+▶️ And from the two formulas, when combined, it becomes:
+````excel
+    = TAKE(SORTBY($A$1:$H:$401;$E:$E;-1);10;8))
+ ````
 ---
 - And for __a non-dynamic array__, the steps can be done as follows:  
 ▶️ Use the filter feature in the Adoption fee column header.  
 ▶️ Click Number filter.  
 ▶️ Then select Top 10.
+
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/9b89f596-93eb-4be2-afa6-5787b516ea8e" /></ins></div>
 <div align="center"><img width="1191" height="415" alt="image" src="https://github.com/user-attachments/assets/8eea0342-1fed-40de-8973-8a89ef05d1db" /></ins></div>
+AND THEN PAKE RUMUS TAKE
+
+
 
 ---
 3️⃣
@@ -79,17 +91,26 @@ Columns include: Adoption ID, Animal Type,	Breed,	Age (Years),	Adoption Fee,	Ado
 ````excel
     = FILTER($A$1:$H:$401; ($G$1:$G$401 = "Toronto") * ($H$1:$H$401 = "Credit Cash"); "No Data")
  ````
+---
+- And for __a non-dynamic array__, the steps can be done as follows:  
+▶️ Filter the __City__ column by checking only the __"Toronto"__ section.
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/8be4b91a-6d15-4d44-86ee-98085936c575" /></ins></div>
 
+▶️ Filter the __Payment Method__ column by checking only the __"Credit Cash"__ section
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/07ab4950-dae7-4791-b847-954140195d36" /></ins></div>
-
 <div align="center"><img width="1191" height="489" alt="image" src="https://github.com/user-attachments/assets/7792b29e-d4af-4f61-825a-96e2f5db5fa0" /></ins></div>
 
 ---
 4️⃣
+- To return the most recent adoption in __a dynamic array__, the first step is to ensure that the adoption date __data has been filtered from newest to oldest__.
+- Then take the 15 most recent data points using the __=TAKE__ formula as shown below, where row is __15__ because it is the first 15 from top to bottom, and column is __8__ because it is from left to right.
+````excel
+    = TAKE($A$1:$H:$401;15;8)
+ ````
+---
+-  And for __a non-dynamic array__, the method is more or less the same. The key is to filter the Adoption Date column from Newest to Oldest and manually copy the top 15 data entries.
 <div align="center"><img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/31b529a6-59c2-4d35-a6a8-48f9c5c4109f" /></ins></div>
-
-<div align="center"><img width="1197" height="369" alt="image" src="https://github.com/user-attachments/assets/c3f5841d-501c-4f80-b143-40ac8b9f2659" /></ins></div>
+<div align="center"><img width="1205" height="515" alt="image" src="https://github.com/user-attachments/assets/2caf968e-7fa9-4450-aad2-8f89c2a8adcd" /></ins></div>
 
 ---
 5️⃣
