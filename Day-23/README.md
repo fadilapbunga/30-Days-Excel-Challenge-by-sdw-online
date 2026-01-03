@@ -114,12 +114,16 @@ AND THEN PAKE RUMUS TAKE
 
 ---
 5️⃣
+- To __dynamically__ extract the ‘Animal Types’ and ‘Adoption Fee’ columns into an array, use the __=CHOOSECOL__ formula as shown below, where the ‘Animal Types’ column is in column 2 and ‘Adoption Fee’ is in column 5.
+````excel
+    = TAKE($A$1:$H:$401;2;5)
+ ````
+---
+- To extract the 'Animal Type' and 'Adoption Cost' columns as __a non-dynamic array__, simply copy and paste the two columns.
 <div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a413ded1-6b8f-4398-b396-78d845f4315d" /></ins></div>
-  
 <div align="center"><img width="683" height="587" alt="image" src="https://github.com/user-attachments/assets/018e3896-21fc-4a29-afa6-4fd05483a67b" /></ins></div>
-
 
 ***
 
 ### <div align="center">Results Overview</ins></div>
-This project demonstrates that complete and accurate data analysis can be achieved using fundamental Excel techniques, even without dynamic array support, highlighting strong problem-solving skills and adaptability to real-world tool limitations.
+This project demonstrates that complete and accurate data analysis can be achieved using fundamental Excel techniques, even without dynamic array support, highlighting strong problem-solving skills and adaptability to real-world tool limitations. Replicated modern Excel behaviors (FILTER, UNIQUE, TOP N) through legacy-compatible methods, ensuring analysis remained scalable and reliable.
