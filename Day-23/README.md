@@ -37,21 +37,48 @@ Columns include: Adoption ID, Animal Type,	Breed,	Age (Years),	Adoption Fee,	Ado
 ***
 
 ### <div align="center">Solving Step or Analysis</ins></div>
+
+#### <div align="center">‼️ Due to environment constraints where dynamic array functions are not supported, all analysis was performed using Microsoft Excel in a non-dynamic array setting, leveraging Advanced Filter, sorting techniques, and foundational Excel functions to achieve accurate and reliable results.‼️</ins></div>
+
 1️⃣
+- To find unique names for all animal types, you can use the __=UNIQUE__ formula in a __dynamic array__. Use the formula below, with the array being the Animal Types column:
+````excel
+    = UNIQUE($B$1:$B$401)
+ ````
+---
+- And for __a non-dynamic array__, the steps can be done as follows:  
+▶️ Block the Animal Types column  
+▶️ Select Advanced Filter  
+▶️ Select Copy to another location  
+▶️ Select the list range to be selected, which is in the Animal Types column, namely in the range $B$1:$B$401  
+▶️ Select copy to $J$1 to move the temporary results  
+▶️ And don't forget to check Unique Record Only
+
+
 <div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c60f5863-ab84-49e3-88c3-ab7ca6c4d2f4" /></ins></div>
 
 <div align="center"><img width="611" height="199" alt="image" src="https://github.com/user-attachments/assets/54afad67-5262-4190-afe8-3579e4a6fea8" /></ins></div>
 
 ---
 2️⃣
+- To sort the most expensive adoptions, __a dynamic array__ can use the __=SORTBY__ formula, which sorts data based on specific criteria, as shown in the formula below:
+````excel
+    = SORTBY($A$1:$H:$401;$E:$E;-1)
+ ````
+---
+- And for __a non-dynamic array__, the steps can be done as follows:  
+▶️ Use the filter feature in the Adoption fee column header.  
+▶️ Click Number filter.  
+▶️ Then select Top 10.
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/9b89f596-93eb-4be2-afa6-5787b516ea8e" /></ins></div>
-
-<div align="center"><img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/7080a9b5-e5f2-48ce-bd85-015f9cbc3c81" /></ins></div>
-
 <div align="center"><img width="1191" height="415" alt="image" src="https://github.com/user-attachments/assets/8eea0342-1fed-40de-8973-8a89ef05d1db" /></ins></div>
 
 ---
 3️⃣
+- To filter with two __dynamic array__ criteria conditions, the __=FILTER__ function can be used by combining criteria __AND (*)__ logic as shown in the formula below:
+````excel
+    = FILTER($A$1:$H:$401; ($G$1:$G$401 = "Toronto") * ($H$1:$H$401 = "Credit Cash"); "No Data")
+ ````
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/8be4b91a-6d15-4d44-86ee-98085936c575" /></ins></div>
 
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/07ab4950-dae7-4791-b847-954140195d36" /></ins></div>
