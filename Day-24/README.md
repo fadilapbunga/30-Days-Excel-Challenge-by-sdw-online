@@ -47,6 +47,39 @@ Columns include: Vendor Name, Contact Name,	Email,	Phone
 ***
 
 ### <div align="center">Solving Step or Analysis</ins></div>
+1️⃣ 
+
+- First, clean the data in each sheet.
+- The first thing you can do is ensure that there is __no duplicate data__ by going to __Home ➡️ Remove Rows ➡️ Remove Duplicates.__
+- Ensure that there are __no extra spaces__ in any format containing text by __TRIM__ text.
+- For the first sheet, which is the __Sales_Data sheet__, ensure that the format of each column is correct as shown below:
+
+<div align="center">
+  
+Column         | Format
+-------------  | -------------
+Transaction ID | Text
+Date           | Date
+City           | Text
+Product        | Text
+Units Sold     | Number
+Unit Price     | Decimal Number
+Payment Method | Text
+Total Revenue  | Decimal Number
+
+</ins></div>
+
+---
+- For the next sheet, __City_Targets__, as with the previous sheet, ensure that the column format matches the format shown in the table below:
+
+<div align="center">
+  
+Column                | Format
+-------------         | -------------
+City                  | Text
+Monthly Target (USD)  | Number
+
+</ins></div>
 
 ***
 
