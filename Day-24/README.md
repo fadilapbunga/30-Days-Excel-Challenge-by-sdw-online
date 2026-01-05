@@ -135,6 +135,25 @@ in
  ````
 This means that, if explained carefully, the phone_digits column is assumed to be p to simplify the subsequent writing so that it is not too long. then if the length of the digits in the column is __11__ and it starts with the letter __1__, only take the last 10 digits, and likewise if the length of the digits in the column is __13__ and it starts with the letters __001__, only take the last 10 digits, and leave the rest as it is.
 
+---
+2️⃣    
+To complete task No. 2, ensure that the data in the __Sales_Data__ and __City_Targets__ sheets is clean, meaning that there are no extra spaces and that the capitalization is correct. Once you have confirmed this, the next step to ensure that all cities listed in the ‘City_Targets’ tab match those in your final output is to:  
+➡️ __Open query Sales_data  
+➡️ Tab Home  
+➡️ Click Merge Queries__
+- First table: Sales_Data
+- Second table: City_Targets
+- Click the City column in BOTH tables
+- Join kind: Left Anti (rows only in first)
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/0f1118d5-2fae-433d-92d5-5e18270b550f" /></ins></div>
+
+- The result is __“This table is empty"__, it means an empty anti-join result indicates that all sales cities match the predefined target list.
+
+---
+3️⃣  
+
+
+
 ***
 
 ### <div align="center">Results Overview</ins></div>
