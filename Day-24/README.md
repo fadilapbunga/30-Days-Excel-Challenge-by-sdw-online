@@ -103,6 +103,29 @@ Phone          | Number
 ⚠️ There are country codes (+1, 001)  
 ⚠️ There are extensions (x506, x93133)__
 
+Therefore, from this data cleaning, the expected data is as shown in the table below, consisting only of numbers and 10 digits.
+
+<div align="center">
+
+Before                  | After
+-------------           | -------------
+001-324-610-2489x506    | 3246102489
+001-927-878-6537        | 9278786537
+001-989-823-5151x93133  | 9898235151
+(450)836-8713x8799      | 4508368713
+
+</ins></div>
+
+📝 The first thing to do in this data cleaning process is to delete the numbers after the letter ‘x’. If you notice, the letter after ‘x’ is always at the end of the digits, so this will be removed by going to __Transform ➡️ Extract ➡️ Text before Delimiter ➡️ Enter the delimiter ‘x’__. This will remove the digits after ‘x’ and leave only the previous digits.
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/458d4420-30b6-4692-8dde-63043823c3ee" /></ins></div>
+
+---
+📝 The next step is to only take characters 0-9 and delete all automatic symbols. Therefore, what you can do is create a new column named __phone_digits__ with the formula:
+<div align="center"><img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/98b1c3c2-d5c2-4b3e-8dd4-794fc9fd0d58" /></ins></div>
+
+---
+📝 
+
 
 
 ***
