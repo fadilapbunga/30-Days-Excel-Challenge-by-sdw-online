@@ -81,6 +81,30 @@ Monthly Target (USD)  | Number
 
 </ins></div>
 
+---
+- Then the last sheet is __Vendor_Contacts__.
+- Make sure there are no extra spaces in each column by using __TRIM__.
+- Make sure the format of each column is correct according to the table below.
+
+<div align="center">
+
+Column         | Format
+-------------  | -------------
+Vendor Name    | Text
+Contact Name   | Text
+Email          | Text
+Phone          | Number
+
+</ins></div>
+
+- After that, it was discovered that the data in the Phone column was incorrect or unclean. Therefore, further data cleaning was required so that the data could be used for future purposes.
+- To do this, clean the Phone column, which was found to contain the following errors:  
+⚠️ __Many different formats: (), +, -, .  
+⚠️ There are country codes (+1, 001)  
+⚠️ There are extensions (x506, x93133)__
+
+
+
 ***
 
 ### <div align="center">Results Overview</ins></div>
