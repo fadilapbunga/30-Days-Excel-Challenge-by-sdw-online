@@ -93,7 +93,7 @@ Column         | Format
 Vendor Name    | Text
 Contact Name   | Text
 Email          | Text
-Phone          | Number
+Phone          | Text and Number
 
 </ins></div>
 
@@ -124,9 +124,16 @@ Before                  | After
 <div align="center"><img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/98b1c3c2-d5c2-4b3e-8dd4-794fc9fd0d58" /></ins></div>
 
 ---
-📝 
-
-
+📝 After that, since we only need 10 digits of the number and there are some numbers that still have country codes (+1, 001), the country code will be removed using the formula below:
+````excel
+let
+    p = [phone_digits]
+in
+    if Text.Length(p) = 11 and Text.Start(p,1) = "1" then Text.End(p,10)
+    else if Text.Length(p) = 13 and Text.Start(p,3) = "001" then Text.End(p,10)
+    else p
+ ````
+This means that, if explained carefully, the phone_digits column is assumed to be p to simplify the subsequent writing so that it is not too long. then if the length of the digits in the column is __11__ and it starts with the letter __1__, only take the last 10 digits, and likewise if the length of the digits in the column is __13__ and it starts with the letters __001__, only take the last 10 digits, and leave the rest as it is.
 
 ***
 
