@@ -151,6 +151,33 @@ To complete task No. 2, ensure that the data in the __Sales_Data__ and __City_Ta
 
 ---
 3️⃣  
+To join city-level revenue totals with the 'City_Targets' table, the following methods can be used:
+
+➡️ First, create a duplicate query on the Sales_Data_Clean sheet.
+➡️ Then, perform a __Group By__ operation to calculate the total revenue per city with the column name __‘City Revenue’__ using the __‘Sum’__ operation on __‘Total Revenue’__.
+<div align="center"><img width="1920" height="1022" alt="image" src="https://github.com/user-attachments/assets/63233e6d-d187-4426-8287-ac72f1498943" /></ins></div>
+
+➡️ Then merge the newly created column, “City Revenue,” into the City Targets sheet as shown below:
+<div align="center"><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/54db175b-c208-4a8e-8a3d-ef6123e47a39" /></ins></div>
+
+➡️ Then the city-level revenue total has been merged with the City Targets sheet.
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/aba93b40-ebc8-47b7-88ec-2913f381d6a5" /></ins></div>
+
+---
+4️⃣  
+➡️ To calculate the % of monthly target achieved for each city, create a new column named ‘Target Achieved (%)’ with the formula below:
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/22dd7751-067c-4112-a2bd-769642ed1eb2" /></ins></div>
+
+➡️ Then convert it to percentage format by going to __Transform → Data Type → Percentage__
+<div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/23d9efc4-937c-455e-8c04-5347ae63b344" /></ins></div>
+
+---
+5️⃣
+
+
+
+
+
 
 
 
