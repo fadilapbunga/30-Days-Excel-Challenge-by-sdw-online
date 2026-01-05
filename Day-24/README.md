@@ -172,7 +172,25 @@ To join city-level revenue totals with the 'City_Targets' table, the following m
 <div align="center"><img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/23d9efc4-937c-455e-8c04-5347ae63b344" /></ins></div>
 
 ---
-5️⃣
+5️⃣  
+- To see which cities have the most achievement targets, you can first sort them by total achievements, as shown in the image below.
+<div align="center"><img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/a146dfb3-58da-4d14-a9ea-1d68dccf6cf7" /></ins></div>
+
+- Then, to find out the sequence/ranking based on the order above, use the __index column__ starting from 1 as shown in the image below.
+<div align="center"><img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/fa2c4085-2d73-49c6-908a-bd43cbbe7a1d" /></ins></div>
+
+---
+6️⃣  
+The vendor list extraction on the Vendor Contacts sheet has been done as per task no. 1. The extraction that has been done includes:
+- Ensuring that there are no extra spaces in each column
+- Ensuring that the data format is correct
+- Cleaning the data in the ‘Phone’ column as per task no. 1
+- Furthermore, ensuring that emails are written in lowercase letters
+<div align="center"><img width="1027" height="579" alt="image" src="https://github.com/user-attachments/assets/cf37a221-bb8a-4a62-a353-c08e82835706" /></ins></div>
+
+---
+7️⃣
+
 
 
 
